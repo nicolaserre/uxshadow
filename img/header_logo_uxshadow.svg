@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="43px" viewBox="0 0 30 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>header_logo_uxshadow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.13125 0.708117647 11.718 0.708117647 11.718 12.5227471 0.13125 12.5227471"></polygon>
+        <polygon id="path-3" points="0 0.421276471 11.58795 0.421276471 11.58795 12.2352176 0 12.2352176"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uxShadow_Beta1_Home" transform="translate(-161.000000, -36.000000)">
+            <g id="0---Header">
+                <g id="header_logo_uxshadow" transform="translate(161.000000, 36.000000)">
+                    <path d="M18,18 C24.6272251,18 30,23.1487427 30,29.5003722 C30,35.8512573 24.6272251,41 18,41 L18,18 Z" id="Fill-1" fill="#242630"></path>
+                    <path d="M12,25 C5.37242718,25 0,19.8512573 0,13.5003722 C0,7.14874268 5.37242718,2 12,2 L12,25 Z" id="Fill-3" fill="#242630"></path>
+                    <g id="Group-7" transform="translate(18.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-6"></g>
+                        <polygon id="Fill-5" fill="#5AE2CB" mask="url(#mask-2)" points="11.718 12.5227471 11.718 0.708041176 0.13125 0.708041176"></polygon>
+                    </g>
+                    <g id="Group-10" transform="translate(0.000000, 30.000000)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <g id="Clip-9"></g>
+                        <path d="M5.79345,12.2352176 L5.79345,12.2352176 C2.59395,12.2352176 -0.0003,9.59086471 -0.0003,6.32786471 C-0.0003,3.06562941 2.59395,0.421276471 5.79345,0.421276471 C8.9937,0.421276471 11.58795,3.06562941 11.58795,6.32786471 C11.58795,9.59086471 8.9937,12.2352176 5.79345,12.2352176" id="Fill-8" fill="#FFD400" mask="url(#mask-4)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="21px" viewBox="0 0 16 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>footer_logo_uxshadow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="uxShadow_Beta1_Home" transform="translate(-165.000000, -7499.000000)" fill="#737B94">
+            <g id="Footer" transform="translate(0.000000, 6980.000000)">
+                <g id="footer_logo_uxshadow" transform="translate(165.000000, 519.000000)">
+                    <path d="M10,9 C13.3136125,9 16,11.6863005 16,15.0001942 C16,18.3136995 13.3136125,21 10,21 L10,9 Z" id="Fill-1"></path>
+                    <path d="M6,12 C2.68621359,12 0,9.31369947 0,6.00019418 C0,2.68630053 2.68621359,0 6,0 L6,12 Z" id="Fill-3"></path>
+                    <path d="M2.99980584,21 L2.99980584,21 C1.34321403,21 0,19.6570005 0,17.9998058 C0,16.3429995 1.34321403,15 2.99980584,15 C4.65678597,15 6,16.3429995 6,17.9998058 C6,19.6570005 4.65678597,21 2.99980584,21" id="Fill-8"></path>
+                    <polygon id="Fill-5" points="16 6 16 0 10 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
