@@ -228,6 +228,7 @@
 
         .menu{
             margin-top: 10px;
+
             a{
                 margin-left:40px;
                 font-size: 1em;
@@ -238,7 +239,44 @@
                 -moz-transition: all 0.3s;
                 -o-transition: all 0.3s;
                 transition: all 0.3s;
+            }
 
+            a:hover{
+                color: $keppel;
+            }
+
+            .link_contact::before, .link_agence::before, .link_realisations::before, .link_services::before{
+                content:url('../img/artefact_menu.png');
+                width: 8px;
+                height: 10px;
+                position: absolute;
+                margin-top: -25px;
+                margin-left: -14px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                opacity: 0;
+            }
+
+            .link_services:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_realisations:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_agence:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_contact:hover::before{
+                opacity: 1;
+                margin-top: 6px;
             }
         }
     }
@@ -271,6 +309,44 @@
                 -moz-transition: all 0.3s;
                 -o-transition: all 0.3s;
                 transition: all 0.3s;
+            }
+
+            a:hover{
+                color: $keppel;
+            }
+
+            .link_contact::before, .link_agence::before, .link_realisations::before, .link_services::before{
+                content:url('../img/artefact_menu.png');
+                width: 8px;
+                height: 10px;
+                position: absolute;
+                margin-top: -25px;
+                margin-left: -14px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                opacity: 0;
+            }
+
+            .link_services:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_realisations:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_agence:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_contact:hover::before{
+                opacity: 1;
+                margin-top: 6px;
             }
         }
     }
@@ -420,7 +496,6 @@
 
         .zone_contact{
             margin-top: 120px;
-            mar
 
             .mega_title_1{
                 font-size: 2.5em!important;
@@ -959,6 +1034,7 @@
 
         .menu{
             margin-top: 10px;
+
             a{
                 margin-left:40px;
                 font-size: 1em;
@@ -970,6 +1046,44 @@
                 -o-transition: all 0.3s;
                 transition: all 0.3s;
 
+            }
+
+            a:hover{
+                color: $keppel;
+            }
+
+            .link_contact::before, .link_agence::before, .link_realisations::before, .link_services::before{
+                content:url('../img/artefact_menu.png');
+                width: 8px;
+                height: 10px;
+                position: absolute;
+                margin-top: -25px;
+                margin-left: -14px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                opacity: 0;
+            }
+
+            .link_services:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_realisations:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_agence:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_contact:hover::before{
+                opacity: 1;
+                margin-top: 6px;
             }
         }
     }
@@ -1002,6 +1116,44 @@
                 -moz-transition: all 0.3s;
                 -o-transition: all 0.3s;
                 transition: all 0.3s;
+            }
+
+            a:hover{
+                color: $keppel;
+            }
+
+            .link_contact::before, .link_agence::before, .link_realisations::before, .link_services::before{
+                content:url('../img/artefact_menu.png');
+                width: 8px;
+                height: 10px;
+                position: absolute;
+                margin-top: -25px;
+                margin-left: -14px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                opacity: 0;
+            }
+
+            .link_services:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_realisations:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_agence:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_contact:hover::before{
+                opacity: 1;
+                margin-top: 6px;
             }
         }
     }
@@ -1738,7 +1890,44 @@
                 -moz-transition: all 0.3s;
                 -o-transition: all 0.3s;
                 transition: all 0.3s;
+            }
 
+            a:hover{
+                color: $keppel;
+            }
+
+            .link_contact::before, .link_agence::before, .link_realisations::before, .link_services::before{
+                content:url('../img/artefact_menu.png');
+                width: 8px;
+                height: 10px;
+                position: absolute;
+                margin-top: -25px;
+                margin-left: -14px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                opacity: 0;
+            }
+
+            .link_services:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_realisations:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_agence:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_contact:hover::before{
+                opacity: 1;
+                margin-top: 6px;
             }
         }
     }
@@ -1771,6 +1960,44 @@
                 -moz-transition: all 0.3s;
                 -o-transition: all 0.3s;
                 transition: all 0.3s;
+            }
+
+            a:hover{
+                color: $keppel;
+            }
+
+            .link_contact::before, .link_agence::before, .link_realisations::before, .link_services::before{
+                content:url('../img/artefact_menu.png');
+                width: 8px;
+                height: 10px;
+                position: absolute;
+                margin-top: -25px;
+                margin-left: -14px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                opacity: 0;
+            }
+
+            .link_services:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_realisations:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_agence:hover::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
+            .link_contact:hover::before{
+                opacity: 1;
+                margin-top: 6px;
             }
         }
     }
@@ -2563,11 +2790,11 @@
             }
 
             .menuBtn {
-                height: 25px;
-                width: 25px;
+                height: 35px;
+                width: 35px;
                 position: absolute;
-                right: 15px!important;
-                top: 18px;
+                right: 30px!important;
+                top: 13px;
                 z-index: 101;
 
                 > span {
@@ -2576,9 +2803,9 @@
                     height: 4px;
                     width: 25px;
                     position: absolute;
-                    left: 50%;
-                    top: 50%;
-                    margin: -1px 0 0 -30px;
+                    left: 100%;
+                    top: 65%;
+                    margin: -8px 0 0 -30px;
                     transition: height 100ms;
                     &:after, &:before {
                         content: '';
@@ -3474,11 +3701,11 @@
             }
 
             .menuBtn {
-                height: 25px;
-                width: 25px;
+                height: 35px;
+                width: 35px;
                 position: absolute;
-                right: 15px!important;
-                top: 18px;
+                right: 30px!important;
+                top: 13px;
                 z-index: 101;
 
                 > span {
@@ -3487,9 +3714,9 @@
                     height: 4px;
                     width: 25px;
                     position: absolute;
-                    left: 50%;
-                    top: 50%;
-                    margin: -1px 0 0 -30px;
+                    left: 100%;
+                    top: 65%;
+                    margin: -8px 0 0 -30px;
                     transition: height 100ms;
                     &:after, &:before {
                         content: '';
