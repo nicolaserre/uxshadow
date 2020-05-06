@@ -344,6 +344,11 @@
                 margin-top: 6px;
             }
 
+            .link_agence:active::before{
+                opacity: 1;
+                margin-top: 6px;
+            }
+
             .link_contact:hover::before{
                 opacity: 1;
                 margin-top: 6px;
@@ -605,7 +610,7 @@
             }
 
             .text_level_14pt{
-                margin-bottom: 65px;
+                margin-bottom: 60px;
                 margin-left: 30px;
             }
 
@@ -633,6 +638,21 @@
                 width: 95%;
             }
 
+            .project_section{
+                margin-bottom: 70px;
+                -webkit-transition: all 0.6s;
+                    -moz-transition: all 0.6s;
+                    -o-transition: all 0.6s;
+                    transition: all 0.6s;
+
+                img, .simpleParallax{
+                    -webkit-transition: all 0.6s;
+                    -moz-transition: all 0.6s;
+                    -o-transition: all 0.6s;
+                    transition: all 0.6s;
+                }
+            }
+
             .project_section:hover{
 
                 .simpleParallax{
@@ -642,15 +662,11 @@
                 }
 
                 img{    
-                    transform: scale(1.05)!important;
+                    transform: scale(0.95)!important;
                     -webkit-box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.23);  
                     -moz-box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.23);
                     box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.23);
                 }   
-            }
-
-            .project_section{
-                margin-bottom: 70px;
             }
 
             .col-lg-6{
@@ -667,7 +683,7 @@
             }
 
             .text_level_14pt{
-                line-height: 0.5em;
+                line-height: 1em;
             }
         }
 
@@ -1486,7 +1502,7 @@
             }
 
             .text_level_14pt{
-                line-height: 0.5em;
+                line-height: 1em;
             }
         }
 
@@ -2321,7 +2337,7 @@
             }
 
             .text_level_14pt{
-                line-height: 0.5em;
+                line-height: 1em;
             }
         }
 
@@ -3231,7 +3247,7 @@
             }
 
             .text_level_14pt{
-                line-height: 0.5em;
+                line-height: 1em;
             }
         }
 
@@ -4142,7 +4158,7 @@
             }
 
             .text_level_14pt{
-                line-height: 0.5em;
+                line-height: 1em;
             }
         }
 
