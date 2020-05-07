@@ -880,7 +880,9 @@
         }
 
         .agence_zone_4_background{
-            margin-top: -280px;
+            margin-top: -500px;
+            z-index: 0;
+            position:relative;
 
             img{
                 width:100%;
@@ -889,15 +891,17 @@
 
         .agence_zone_5{
             color: $trout;
+            z-index: 3;
+            position:relative;
 
             .ergogames{
-                margin-top: 0px;
+                margin-top: 25px;
             }
         }
 
         .agence_zone_6{
             color: $trout;
-            margin-top: 130px;
+            margin-top: 90px;
 
             h1{
                 margin-bottom: 40px;
@@ -1735,13 +1739,13 @@
 
             .ergogames{
                 margin-top: 0px;
-                margin-left: 40px;
+                margin-left: 25px;
             }
         }
 
         .agence_zone_6{
             color: $trout;
-            margin-top: 130px;
+            margin-top: 90px;
 
             h1{
                 margin-bottom: 40px;
@@ -2570,7 +2574,7 @@
 
             .ergogames{
                 margin-top: 0px;
-                margin-left: 40px;
+                margin-left: 25px;
             }
         }
 
