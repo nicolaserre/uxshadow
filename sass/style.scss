@@ -1859,277 +1859,277 @@
 
     /* BUTTONS ********************/ 
 
-    .link_heliotrope{
-        font-family: 'euclid_flexregular';
-        color: $heliotrope;
-        font-size: 0.9em;
-    }
+        .link_heliotrope{
+            font-family: 'euclid_flexregular';
+            color: $heliotrope;
+            font-size: 0.9em;
+        }
 
 
     /* COMMON ********************/
 
-    .supernova{
-        color: $supernova;
-    }
+        .supernova{
+            color: $supernova;
+        }
 
-    .heliotrope{
-        color: $heliotrope;
-    }
+        .heliotrope{
+            color: $heliotrope;
+        }
 
-    .no_padding_right{
-        padding-right:0!important;
-    }
+        .no_padding_right{
+            padding-right:0!important;
+        }
 
-    .no_padding_left{
-        padding-left:0!important;
-    }
+        .no_padding_left{
+            padding-left:0!important;
+        }
 
     /* HEADER *********************/
 
-    .header_content{
-        background-color: white;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
-        position: fixed !important;
-        top: 0;
-        z-index: 999;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        -o-transition: all 0.3s;
-        transition: all 0.3s;
+        .header_content{
+            background-color: white;
+            padding-top: 3vh;
+            padding-bottom: 3vh;
+            position: fixed !important;
+            top: 0;
+            z-index: 999;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
 
-        .menu{
-            margin-top: 10px;
-            a{
-                margin-left:40px;
-                font-size: 1em;
-                font-family: 'euclid_flexbold';
-                color: $charade;
-                text-decoration: none;
-                -webkit-transition: all 0.3s;
-                -moz-transition: all 0.3s;
-                -o-transition: all 0.3s;
-                transition: all 0.3s;
-            }
+            .menu{
+                margin-top: 10px;
+                a{
+                    margin-left:40px;
+                    font-size: 1em;
+                    font-family: 'euclid_flexbold';
+                    color: $charade;
+                    text-decoration: none;
+                    -webkit-transition: all 0.3s;
+                    -moz-transition: all 0.3s;
+                    -o-transition: all 0.3s;
+                    transition: all 0.3s;
+                }
 
-            a:hover{
-                color: $keppel;
-            }
+                a:hover{
+                    color: $keppel;
+                }
 
-            .link_contact::before, .link_agence::before, .link_realisations::before, .link_services::before{
-                content:url('../img/artefact_menu.png');
-                width: 8px;
-                height: 10px;
-                position: absolute;
-                margin-top: -25px;
-                margin-left: -14px;
-                -webkit-transition: all 0.3s;
-                -moz-transition: all 0.3s;
-                -o-transition: all 0.3s;
-                transition: all 0.3s;
-                opacity: 0;
-            }
+                .link_contact::before, .link_agence::before, .link_realisations::before, .link_services::before{
+                    content:url('../img/artefact_menu.png');
+                    width: 8px;
+                    height: 10px;
+                    position: absolute;
+                    margin-top: -25px;
+                    margin-left: -14px;
+                    -webkit-transition: all 0.3s;
+                    -moz-transition: all 0.3s;
+                    -o-transition: all 0.3s;
+                    transition: all 0.3s;
+                    opacity: 0;
+                }
 
-            .link_services:hover::before{
-                opacity: 1;
-                margin-top: 6px;
-            }
+                .link_services:hover::before{
+                    opacity: 1;
+                    margin-top: 6px;
+                }
 
-            .link_realisations:hover::before{
-                opacity: 1;
-                margin-top: 6px;
-            }
+                .link_realisations:hover::before{
+                    opacity: 1;
+                    margin-top: 6px;
+                }
 
-            .link_agence:hover::before{
-                opacity: 1;
-                margin-top: 6px;
-            }
+                .link_agence:hover::before{
+                    opacity: 1;
+                    margin-top: 6px;
+                }
 
-            .link_contact:hover::before{
-                opacity: 1;
-                margin-top: 6px;
-            }
-        }
-    }
-
-    .header_content_scroll{
-        background-color: white;
-        padding-top: 1vh;
-        padding-bottom: 1vh;
-        position: fixed !important;
-        top: 0;
-        z-index: 999;
-        -webkit-box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.23);
-        -moz-box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.23);
-        box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.23);
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        -o-transition: all 0.3s;
-        transition: all 0.3s;
-
-        .menu{
-            margin-top: 10px;
-
-            a{
-                margin-left:40px;
-                font-size: 0.9em;
-                font-family: 'euclid_flexbold';
-                color: $charade;
-                text-decoration: none;
-                -webkit-transition: all 0.3s;
-                -moz-transition: all 0.3s;
-                -o-transition: all 0.3s;
-                transition: all 0.3s;
-            }
-
-            a:hover{
-                color: $keppel;
-            }
-
-            .link_contact::before, .link_agence::before, .link_realisations::before, .link_services::before{
-                content:url('../img/artefact_menu.png');
-                width: 8px;
-                height: 10px;
-                position: absolute;
-                margin-top: -25px;
-                margin-left: -14px;
-                -webkit-transition: all 0.3s;
-                -moz-transition: all 0.3s;
-                -o-transition: all 0.3s;
-                transition: all 0.3s;
-                opacity: 0;
-            }
-
-            .link_services:hover::before{
-                opacity: 1;
-                margin-top: 6px;
-            }
-
-            .link_realisations:hover::before{
-                opacity: 1;
-                margin-top: 6px;
-            }
-
-            .link_agence:hover::before{
-                opacity: 1;
-                margin-top: 6px;
-            }
-
-            .link_contact:hover::before{
-                opacity: 1;
-                margin-top: 6px;
+                .link_contact:hover::before{
+                    opacity: 1;
+                    margin-top: 6px;
+                }
             }
         }
-    }
+
+        .header_content_scroll{
+            background-color: white;
+            padding-top: 1vh;
+            padding-bottom: 1vh;
+            position: fixed !important;
+            top: 0;
+            z-index: 999;
+            -webkit-box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.23);
+            -moz-box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.23);
+            box-shadow: 0px 4px 24px 0px rgba(0,0,0,0.23);
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+
+            .menu{
+                margin-top: 10px;
+
+                a{
+                    margin-left:40px;
+                    font-size: 0.9em;
+                    font-family: 'euclid_flexbold';
+                    color: $charade;
+                    text-decoration: none;
+                    -webkit-transition: all 0.3s;
+                    -moz-transition: all 0.3s;
+                    -o-transition: all 0.3s;
+                    transition: all 0.3s;
+                }
+
+                a:hover{
+                    color: $keppel;
+                }
+
+                .link_contact::before, .link_agence::before, .link_realisations::before, .link_services::before{
+                    content:url('../img/artefact_menu.png');
+                    width: 8px;
+                    height: 10px;
+                    position: absolute;
+                    margin-top: -25px;
+                    margin-left: -14px;
+                    -webkit-transition: all 0.3s;
+                    -moz-transition: all 0.3s;
+                    -o-transition: all 0.3s;
+                    transition: all 0.3s;
+                    opacity: 0;
+                }
+
+                .link_services:hover::before{
+                    opacity: 1;
+                    margin-top: 6px;
+                }
+
+                .link_realisations:hover::before{
+                    opacity: 1;
+                    margin-top: 6px;
+                }
+
+                .link_agence:hover::before{
+                    opacity: 1;
+                    margin-top: 6px;
+                }
+
+                .link_contact:hover::before{
+                    opacity: 1;
+                    margin-top: 6px;
+                }
+            }
+        }
 
     /* FOOTER *********************/
 
-    footer{
-        background-color:$charade;
-        margin-top: 80px;
-        padding-left:0!important;
-        padding-right:0!important;
-        padding-bottom:20px;
+        footer{
+            background-color:$charade;
+            margin-top: 80px;
+            padding-left:0!important;
+            padding-right:0!important;
+            padding-bottom:20px;
 
-        .pre_footer{
-            padding-top: 100px;
-            padding-bottom:40px;
+            .pre_footer{
+                padding-top: 100px;
+                padding-bottom:40px;
 
-            .link_mail{
-                color: $anakiwa;
-                font-size: 1.2em;
-                text-decoration: none;
-                font-family: 'euclid_flexbold';
-                 -webkit-transition: all 0.6s;
-                -moz-transition: all 0.6s;
-                -o-transition: all 0.6s;
-                transition: all 0.6s;
-            }
+                .link_mail{
+                    color: $anakiwa;
+                    font-size: 1.2em;
+                    text-decoration: none;
+                    font-family: 'euclid_flexbold';
+                     -webkit-transition: all 0.6s;
+                    -moz-transition: all 0.6s;
+                    -o-transition: all 0.6s;
+                    transition: all 0.6s;
+                }
 
-            .link_mail:hover{
-                color: white;
-                text-decoration: underline;
-            }
+                .link_mail:hover{
+                    color: white;
+                    text-decoration: underline;
+                }
 
-            .link_pages{
+                .link_pages{
 
-                a{
+                    a{
+                        color: white;
+                        font-size: 0.8em;
+                        text-decoration: none;
+                        font-family: 'euclid_flexlight';
+                        -webkit-transition: all 0.6s;
+                        -moz-transition: all 0.6s;
+                        -o-transition: all 0.6s;
+                        transition: all 0.6s;
+                    }
+
+                    a:hover{
+                        color: $anakiwa;
+                        text-decoration:underline;
+                    }
+                }
+
+                .link_places{
+                    margin-top: 40px;
                     color: white;
                     font-size: 0.8em;
-                    text-decoration: none;
                     font-family: 'euclid_flexlight';
+
+                    a{
+                        color: white;
+                        font-size: 0.8em;
+                        text-decoration: none;
+                        font-family: 'euclid_flexlight';
+                        -webkit-transition: all 0.6s;
+                        -moz-transition: all 0.6s;
+                        -o-transition: all 0.6s;
+                        transition: all 0.6s;
+                    }
+
+                    a:hover{
+                        color: $anakiwa;
+                        text-decoration:underline;
+                    }
+                }
+            }
+
+            .horizontal_line{
+                display: block;
+                background-color:$trout;
+                height: 1px;
+                width: 100%;
+            }
+
+            .sub_footer{
+                margin-top: 20px;
+                
+                .linkedin{
+                    margin-top: -4px;
+                    margin-right: 20px;
+                    margin-left: 20px;
+                }
+
+                .twitter{
+                    margin-top: -3px;
+                }
+
+                .link_mentions_legales{
+                    color: $trout;
+                    font-size: 0.8em;
+                    font-family: 'euclid_flexmedium';
                     -webkit-transition: all 0.6s;
                     -moz-transition: all 0.6s;
                     -o-transition: all 0.6s;
                     transition: all 0.6s;
                 }
 
-                a:hover{
-                    color: $anakiwa;
-                    text-decoration:underline;
-                }
-            }
-
-            .link_places{
-                margin-top: 40px;
-                color: white;
-                font-size: 0.8em;
-                font-family: 'euclid_flexlight';
-
-                a{
+                .link_mentions_legales:hover{
                     color: white;
-                    font-size: 0.8em;
                     text-decoration: none;
-                    font-family: 'euclid_flexlight';
-                    -webkit-transition: all 0.6s;
-                    -moz-transition: all 0.6s;
-                    -o-transition: all 0.6s;
-                    transition: all 0.6s;
-                }
-
-                a:hover{
-                    color: $anakiwa;
-                    text-decoration:underline;
                 }
             }
         }
-
-        .horizontal_line{
-            display: block;
-            background-color:$trout;
-            height: 1px;
-            width: 100%;
-        }
-
-        .sub_footer{
-            margin-top: 20px;
-            
-            .linkedin{
-                margin-top: -4px;
-                margin-right: 20px;
-                margin-left: 20px;
-            }
-
-            .twitter{
-                margin-top: -3px;
-            }
-
-            .link_mentions_legales{
-                color: $trout;
-                font-size: 0.8em;
-                font-family: 'euclid_flexmedium';
-                -webkit-transition: all 0.6s;
-                -moz-transition: all 0.6s;
-                -o-transition: all 0.6s;
-                transition: all 0.6s;
-            }
-
-            .link_mentions_legales:hover{
-                color: white;
-                text-decoration: none;
-            }
-        }
-    }
 
     /* UNIVERSAL ******************/
 
