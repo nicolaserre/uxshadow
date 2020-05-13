@@ -3518,30 +3518,30 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
   /* line 3582, ../sass/style.scss */
   .text_level_16pt_bold {
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-family: 'euclid_flexbold';
-    line-height: 1.3;
+    line-height: 1.3em;
   }
 
   /* line 3588, ../sass/style.scss */
   .text_level_16pt {
-    font-size: 0.7em;
+    font-size: 0.9em;
     font-family: 'euclid_flexregular';
-    line-height: 1;
+    line-height: 1em;
   }
 
   /* line 3594, ../sass/style.scss */
   .text_level_14pt_bold {
-    font-size: 0.6em;
+    font-size: 0.8em;
     font-family: 'euclid_flexbold';
-    line-height: 1;
+    line-height: 1em;
   }
 
   /* line 3600, ../sass/style.scss */
   .text_level_14pt {
-    font-size: 0.7em;
+    font-size: 0.8em;
     font-family: 'euclid_flexlight';
-    line-height: 1;
+    line-height: 1em;
   }
 
   /* BUTTONS ********************/
@@ -4037,7 +4037,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   /* line 4097, ../sass/style.scss */
   .home_solutions_content .text_level_16pt_bold {
     margin-top: 20px;
-    line-height: 0em;
+    line-height: 1em;
   }
   /* line 4102, ../sass/style.scss */
   .home_solutions_content img {
@@ -4238,7 +4238,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     padding-left: 0 !important;
     background-color: #FBFBFB;
     max-width: 100% !important;
-    height: 440px;
+    height: 480px;
     position: absolute;
     margin-top: 180px;
     z-index: -1;

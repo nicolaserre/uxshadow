@@ -3580,27 +3580,27 @@
         }
 
         .text_level_16pt_bold{
-            font-size: 0.7em;
+            font-size: 0.9em;
             font-family: 'euclid_flexbold';
-            line-height: 1.3;
+            line-height: 1.3em;
         }
 
         .text_level_16pt{
-            font-size: 0.7em;
+            font-size: 0.9em;
             font-family: 'euclid_flexregular';
-            line-height: 1;
+            line-height: 1em;
         }
 
         .text_level_14pt_bold{
-            font-size: 0.6em;
+            font-size: 0.8em;
             font-family: 'euclid_flexbold';
-            line-height: 1;
+            line-height: 1em;
         }
 
         .text_level_14pt{
-            font-size: 0.7em;
+            font-size: 0.8em;
             font-family: 'euclid_flexlight';
-            line-height: 1;
+            line-height: 1em;
         }
         
 
@@ -4096,7 +4096,7 @@
 
             .text_level_16pt_bold{
                 margin-top: 20px;
-                line-height: 0em;
+                line-height: 1em;
             }
 
             img{
@@ -4299,7 +4299,7 @@
             padding-left: 0 !important;
             background-color: $lighter-gray;
             max-width: 100%!important;
-            height: 440px;
+            height: 480px;
             position: absolute;
             margin-top: 180px;
             z-index: -1;
