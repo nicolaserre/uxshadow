@@ -141,6 +141,7 @@
             font-size: 1.5em;
         }
 
+
         .light_title_1{
             font-family: 'euclid_flexlight';
             font-size: 3.5em;
@@ -215,7 +216,6 @@
     /* HEADER *********************/
 
     .header_content{
-        background-color: white;
         padding-top: 3vh;
         padding-bottom: 3vh;
         position: fixed !important;
@@ -360,7 +360,7 @@
 
     footer{
         background-color:$charade;
-        margin-top: 100px;
+        margin-top: 0px;
         padding-left:0!important;
         padding-right:0!important;
         padding-bottom:20px;
@@ -529,6 +529,140 @@
         }
 
 
+        .zone_contact_2{
+            background-color:$lighter-gray;
+            margin-top: 120px;
+            padding-top:90px;
+            padding-bottom:90px;
+
+            .mega_title_1{
+                font-size: 2em!important;
+                margin-bottom: 40px;
+            }
+
+            a{
+                border: 5px solid #8d78ff;
+                font-size: 1.7em;
+                line-height: 0em;
+                font-family: 'euclid_flexbold';
+                color: #8d78ff;
+                padding-top: 18px;
+                -webkit-transition: all 0.6s;
+                -moz-transition: all 0.6s;
+                -o-transition: all 0.6s;
+                transition: all 0.6s;
+                padding-left: 20px;
+                padding-right: 30px;
+                background-color:$lighter-gray;
+
+                img{
+                    margin-left: 20px;
+                }
+            }
+
+            a:hover{
+                color: white;
+                background-color:$heliotrope;
+                text-decoration: none;
+            }
+        }
+
+
+        .zone_faq{
+            background: $trout;
+            margin-top: 120px;
+            padding-bottom:90px;
+            padding-top:100px;
+
+            .mega_title_2{
+                margin-bottom: 30px;
+                color: white!important;
+                letter-spacing: 0.1em;
+            }
+
+            input {
+                position: absolute;
+                opacity: 0;
+                z-index: -1;
+            }
+
+                /* Accordion styles */
+            .tabs {
+                overflow: hidden;
+            }
+
+            .tab {
+                width: 100%;
+                color: white;
+                overflow: hidden;
+
+                &-label {
+                    display: flex;
+                    color: white;
+                    font-family: 'euclid_flexregular';
+                    font-size: 1.4em;
+                    cursor: pointer;
+                    padding-bottom: 0em;
+                    padding-top:0.5em;
+
+                    /* Icon */
+                    &:hover {
+                      color:$turquoise_blue;
+                    }
+
+                    &::after {
+                      content:url('../img/artefact_accordeon_unchecked.png');
+                      width: 1em;
+                      height: 1em;
+                      transition: all .35s;
+                      margin-left:10px;
+                    }
+                }
+
+                &-content {
+                    max-height: 0;
+                    color: $trout;
+                    transition: all .35s;
+
+                    .text_level_16pt_bold{
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+                // :checked
+            input:checked {
+
+                + .tab-label {
+                    color:white;
+
+                    &::after {
+                      content:url('../img/artefact_accordeon_checked.png');
+                      transform: rotate(180deg);
+                      margin-top: -5px;
+                    }
+                }
+
+                ~ .tab-content {
+                    max-height: 100vh;
+                    color: white;
+                }
+            }
+        }
+
+        .zone_faq::before{
+            content: url('../img/artefact_services_2.png');
+            display: block;
+            height: 60px;
+            width: 60px;
+            position:absolute;
+            margin-top: -160px;
+            left: 0;
+        }
+
+    
+
+
     /* HOME ***********************/
 
         .home_hero{
@@ -554,6 +688,10 @@
                 margin-top: 25vh;
                 color: $trout;
             }
+
+            img{
+                width: 100%;
+            }
         }
 
         .home_values{
@@ -575,7 +713,7 @@
             padding-left: 0 !important;
             background-color: $lighter-gray;
             max-width: 76% !important;
-            height: 1000px;
+            height: 770px;
             position: absolute;
             margin-top: -100px;
             z-index: -1;
@@ -691,6 +829,7 @@
 
         .contact_content{
             margin-top: 200px;
+            margin-bottom: 80px;
 
             .mega_title_2{
                 margin-top: 10px;
@@ -919,6 +1058,157 @@
                 line-height: 0em!important;
                 margin-bottom: 50px;
             }
+        }
+
+    /* SERVICES *********************/
+
+        .services_hero{
+            margin-top: 200px;
+
+            .light_title_1{
+                color: $heliotrope;
+            }
+
+            .text_level_16pt{
+                color: $trout;
+            }
+
+            .explications{
+                padding-left:60px;
+                padding-right:60px;
+                padding-top:60px;
+                padding-bottom:40px;
+                background-color: $lighter-gray;
+            }
+
+            .explications::before{
+                content:url('../img/artefact_services_1.png');
+                display: block;
+                width: 14px;
+                height: 28px;
+                position: absolute;
+                margin-top: 360px;
+                margin-left: -120px;
+            }
+        }
+
+        .services_zone_1{
+            margin-top: 120px;
+
+            .mega_title_2{
+                margin-bottom: 40px;   
+            }
+
+            .zone_accordeon{
+                input {
+                  position: absolute;
+                  opacity: 0;
+                  z-index: -1;
+                }
+
+                /* Accordion styles */
+                .tabs {
+                  overflow: hidden;
+                }
+                .tab {
+                  width: 100%;
+                  color: white;
+                  overflow: hidden;
+
+                  &-label {
+                    display: flex;
+                    color: $trout;
+                    font-family: 'euclid_flexregular';
+                    font-size: 1.4em;
+                    cursor: pointer;
+                    padding-bottom: 0em;
+                    padding-top:0.5em;
+
+                    /* Icon */
+                    &:hover {
+                      color:$turquoise_blue;
+                    }
+                    &::after {
+                      content:url('../img/artefact_accordeon_unchecked.png');
+                      width: 1em;
+                      height: 1em;
+                      transition: all .35s;
+                      margin-left:10px;
+                    }
+                  }
+
+                  &-content {
+                    border-left:white solid 2px;
+                    max-height: 0;
+                    padding-left: 20px;
+                    color: white;
+                    background: white;
+                    transition: all .35s;
+
+                    .text_level_16pt_bold{
+                        padding-top: 10px;
+                        margin-bottom: 5px!important;
+                    }
+                  }
+                }
+
+                // :checked
+                input:checked {
+                  + .tab-label {
+                    color:$charade;
+                    &::after {
+                      content:url('../img/artefact_accordeon_checked.png');
+                      transform: rotate(180deg);
+                      margin-top: -5px;
+                    }
+                  }
+                  ~ .tab-content {
+                    max-height: 100vh;
+                    color: $trout;
+                    border-left:$turquoise_blue solid 2px;
+                    margin-left: 10px;
+                  }
+                }
+            }
+        }
+
+        .services_zone_2{
+
+            background-color:$lighter-gray;
+            margin-top: 120px;
+            padding-top:80px;
+            padding-bottom:30px;
+
+            .mega_title_2{
+                padding-bottom:50px;
+            }
+
+            .col-lg-4{
+                padding:0px!important;
+            }
+
+            .text_level_14pt{
+                margin-bottom: 50px;
+            }
+
+            .text_level_16pt_bold{
+                margin-top: 40px;
+                line-height: 0em;
+            }
+        }
+
+
+
+        .services_zone_2::after{
+            content: '';
+            display: block;
+            background-color:$lighter-gray;
+            height: 708px;
+            width: 30%;
+            position:absolute;
+            right:0;
+            margin-top: -678px;
+            z-index: -1;
         }
 }
 
@@ -1182,7 +1472,6 @@
 
     footer{
         background-color:$charade;
-        margin-top: 80px;
         padding-left:0!important;
         padding-right:0!important;
         padding-bottom:20px;
@@ -1290,7 +1579,6 @@
     /* UNIVERSAL ******************/
 
         .zone_clients{
-
             margin-top: 70px;
 
             .mega_title_2{
@@ -1351,6 +1639,137 @@
             }
         }
 
+        .zone_contact_2{
+            background-color:$lighter-gray;
+            margin-top: 120px;
+            padding-top:90px;
+            padding-bottom:90px;
+
+            .mega_title_1{
+                font-size: 1.6em;
+                margin-bottom: 40px;
+            }
+
+            a{
+                border: 4px solid #8d78ff;
+                font-size: 1.3em;
+                line-height: 0em;
+                font-family: 'euclid_flexbold';
+                color: #8d78ff;
+                padding-top: 18px;
+                -webkit-transition: all 0.6s;
+                -moz-transition: all 0.6s;
+                -o-transition: all 0.6s;
+                transition: all 0.6s;
+                padding-left: 20px;
+                padding-right: 30px;
+                background-color:$lighter-gray;
+
+                img{
+                    margin-left: 20px;
+                }
+            }
+
+            a:hover{
+                color: white;
+                background-color:$heliotrope;
+                text-decoration: none;
+            }
+        }
+
+        .zone_faq{
+            background: $trout;
+            margin-top: 120px;
+            padding-bottom:50px;
+            padding-top:80px;
+            padding-left: 50px!important;
+
+            .mega_title_2{
+                margin-bottom: 30px;
+                color: white!important;
+                letter-spacing: 0.1em;
+            }
+
+            input {
+                position: absolute;
+                opacity: 0;
+                z-index: -1;
+            }
+
+                /* Accordion styles */
+            .tabs {
+                overflow: hidden;
+            }
+
+            .tab {
+                width: 100%;
+                color: white;
+                overflow: hidden;
+
+                &-label {
+                    display: flex;
+                    color: white;
+                    font-family: 'euclid_flexregular';
+                    font-size: 1.4em;
+                    cursor: pointer;
+                    padding-bottom: 0em;
+                    padding-top:0.5em;
+
+                    /* Icon */
+                    &:hover {
+                      color:$turquoise_blue;
+                    }
+
+                    &::after {
+                      content:url('../img/artefact_accordeon_unchecked.png');
+                      width: 1em;
+                      height: 1em;
+                      transition: all .35s;
+                      margin-left:10px;
+                    }
+                }
+
+                &-content {
+                    max-height: 0;
+                    color: $trout;
+                    transition: all .35s;
+
+                    .text_level_16pt_bold{
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+                // :checked
+            input:checked {
+
+                + .tab-label {
+                    color:white;
+
+                    &::after {
+                      content:url('../img/artefact_accordeon_checked.png');
+                      transform: rotate(180deg);
+                      margin-top: -5px;
+                    }
+                }
+
+                ~ .tab-content {
+                    max-height: 100vh;
+                    color: white;
+                }
+            }
+        }
+
+        .zone_faq::before{
+            content: url('../img/artefact_services_2.png');
+            display: block;
+            height: 60px;
+            width: 60px;
+            position:absolute;
+            margin-top: -140px;
+            left: 0;
+        }
+
     /* HOME ***********************/
 
         .home_hero{
@@ -1406,7 +1825,7 @@
             padding-left: 0 !important;
             background-color: $lighter-gray;
             max-width: 80% !important;
-            height: 980px;
+            height: 770px;
             position: absolute;
             margin-top: -100px;
             z-index: -1;
@@ -1514,6 +1933,7 @@
 
         .contact_content{
             margin-top: 200px;
+            margin-bottom: 80px;
 
             .mega_title_2{
                 margin-top: 10px;
@@ -1764,6 +2184,156 @@
                 line-height: 0em!important;
                 margin-bottom: 50px;
             }
+        }
+
+    /* SERVICES *********************/
+
+        .services_hero{
+            margin-top: 200px;
+
+            .light_title_1{
+                color: $heliotrope;
+            }
+
+            .text_level_16pt{
+                color: $trout;
+            }
+
+            .explications{
+                padding-left:60px;
+                padding-right:60px;
+                padding-top:60px;
+                padding-bottom:40px;
+                background-color: $lighter-gray;
+            }
+
+            .explications::before{
+                content:url('../img/artefact_services_1.png');
+                display: block;
+                width: 14px;
+                height: 28px;
+                position: absolute;
+                margin-top: 340px;
+                margin-left: -120px;
+            }
+        }
+
+        .services_zone_1{
+            margin-top: 120px;
+
+            .mega_title_2{
+                margin-bottom: 40px;   
+            }
+
+            .zone_accordeon{
+                input {
+                  position: absolute;
+                  opacity: 0;
+                  z-index: -1;
+                }
+
+                /* Accordion styles */
+                .tabs {
+                  overflow: hidden;
+                }
+                .tab {
+                  width: 100%;
+                  color: white;
+                  overflow: hidden;
+
+                  &-label {
+                    display: flex;
+                    color: $trout;
+                    font-family: 'euclid_flexregular';
+                    font-size: 1.4em;
+                    cursor: pointer;
+                    padding-bottom: 0em;
+                    padding-top:0.5em;
+
+                    /* Icon */
+                    &:hover {
+                      color:$turquoise_blue;
+                    }
+                    &::after {
+                      content:url('../img/artefact_accordeon_unchecked.png');
+                      width: 1em;
+                      height: 1em;
+                      transition: all .35s;
+                      margin-left:10px;
+                    }
+                  }
+
+                  &-content {
+                    border-left:white solid 2px;
+                    max-height: 0;
+                    padding-left: 20px;
+                    color: white;
+                    background: white;
+                    transition: all .35s;
+
+                    .text_level_16pt_bold{
+                        padding-top: 10px;
+                    }
+                  }
+                }
+
+                // :checked
+                input:checked {
+                  + .tab-label {
+                    color:$charade;
+                    &::after {
+                      content:url('../img/artefact_accordeon_checked.png');
+                      transform: rotate(180deg);
+                      margin-top: -5px;
+                    }
+                  }
+                  ~ .tab-content {
+                    max-height: 100vh;
+                    color: $trout;
+                    border-left:$turquoise_blue solid 2px;
+                    margin-left: 10px;
+                  }
+                }
+            }
+        }
+
+        .services_zone_2{
+
+            background-color:$lighter-gray;
+            margin-top: 120px;
+            padding-top:80px;
+            padding-bottom:30px;
+
+            .mega_title_2{
+                padding-bottom:50px;
+            }
+
+            .col-lg-4{
+                padding:0px!important;
+            }
+
+            .text_level_14pt{
+                margin-bottom: 50px;
+            }
+
+            .text_level_16pt_bold{
+                margin-top: 40px;
+                line-height: 0em;
+            }
+        }
+
+
+
+        .services_zone_2::after{
+            content: '';
+            display: block;
+            background-color:$lighter-gray;
+            height: 708px;
+            width: 30%;
+            position:absolute;
+            right:0;
+            margin-top: -640px;
+            z-index: -1;
         }
 }
 
@@ -2026,7 +2596,6 @@
 
         footer{
             background-color:$charade;
-            margin-top: 80px;
             padding-left:0!important;
             padding-right:0!important;
             padding-bottom:20px;
@@ -2199,6 +2768,137 @@
             }
         }
 
+        .zone_contact_2{
+            background-color:$lighter-gray;
+            margin-top: 120px;
+            padding-top:90px;
+            padding-bottom:90px;
+
+            .mega_title_1{
+                font-size: 1.2em;
+                margin-bottom: 40px;
+            }
+
+            a{
+                border: 4px solid #8d78ff;
+                font-size: 1.1em;
+                line-height: 0em;
+                font-family: 'euclid_flexbold';
+                color: #8d78ff;
+                padding-top: 12px;
+                -webkit-transition: all 0.6s;
+                -moz-transition: all 0.6s;
+                -o-transition: all 0.6s;
+                transition: all 0.6s;
+                padding-left: 20px;
+                padding-right: 30px;
+                background-color:$lighter-gray;
+
+                img{
+                    margin-left: 20px;
+                }
+            }
+
+            a:hover{
+                color: white;
+                background-color:$heliotrope;
+                text-decoration: none;
+            }
+        }
+
+        .zone_faq{
+            background: $trout;
+            margin-top: 120px;
+            padding-bottom:50px;
+            padding-top:80px;
+            padding-left: 50px!important;
+
+            .mega_title_2{
+                margin-bottom: 30px;
+                color: white!important;
+                letter-spacing: 0.1em;
+            }
+
+            input {
+                position: absolute;
+                opacity: 0;
+                z-index: -1;
+            }
+
+                /* Accordion styles */
+            .tabs {
+                overflow: hidden;
+            }
+
+            .tab {
+                width: 100%;
+                color: white;
+                overflow: hidden;
+
+                &-label {
+                    display: flex;
+                    color: white;
+                    font-family: 'euclid_flexregular';
+                    font-size: 1.1em;
+                    cursor: pointer;
+                    padding-bottom: 0em;
+                    padding-top:0.5em;
+
+                    /* Icon */
+                    &:hover {
+                      color:$turquoise_blue;
+                    }
+
+                    &::after {
+                      content:url('../img/artefact_accordeon_unchecked.png');
+                      width: 1em;
+                      height: 1em;
+                      transition: all .35s;
+                      margin-left:10px;
+                    }
+                }
+
+                &-content {
+                    max-height: 0;
+                    color: $trout;
+                    transition: all .35s;
+
+                    .text_level_16pt_bold{
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+                // :checked
+            input:checked {
+
+                + .tab-label {
+                    color:white;
+
+                    &::after {
+                      content:url('../img/artefact_accordeon_checked.png');
+                      transform: rotate(180deg);
+                      margin-top: -5px;
+                    }
+                }
+
+                ~ .tab-content {
+                    max-height: 100vh;
+                    color: white;
+                }
+            }
+        }
+
+        .zone_faq::before{
+            content: url('../img/artefact_services_2.png');
+            display: block;
+            height: 60px;
+            width: 60px;
+            position:absolute;
+            margin-top: -140px;
+            left: 0;
+        }
+
     /* HOME ***********************/
 
         .home_hero{
@@ -2253,7 +2953,7 @@
             padding-left: 0 !important;
             background-color: $lighter-gray;
             max-width: 95% !important;
-            height: 740px;
+            height: 540px;
             position: absolute;
             margin-top: -50px;
             z-index: -1;
@@ -2349,6 +3049,7 @@
 
         .contact_content{
             margin-top: 150px;
+            margin-bottom: 80px;
 
             .mega_title_2{
                 margin-top: 10px;
@@ -2602,6 +3303,157 @@
             }
         }
 
+    /* SERVICES *********************/
+
+        .services_hero{
+            margin-top: 150px;
+
+            .light_title_1{
+                color: $heliotrope;
+            }
+
+            .text_level_16pt{
+                color: $trout;
+            }
+
+            .explications{
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 40px;
+                padding-bottom: 20px;
+                background-color: $lighter-gray;
+            }
+
+            .explications::before{
+                content:url('../img/artefact_services_1.png');
+                display: block;
+                width: 14px;
+                height: 28px;
+                position: absolute;
+                margin-top: 340px;
+                margin-left: -120px;
+            }
+        }
+
+        .services_zone_1{
+            margin-top: 80px;
+
+            .mega_title_2{
+                margin-bottom: 40px;   
+            }
+
+            .zone_accordeon{
+
+                input {
+                  position: absolute;
+                  opacity: 0;
+                  z-index: -1;
+                }
+
+                /* Accordion styles */
+                .tabs {
+                  overflow: hidden;
+                }
+                .tab {
+                  width: 100%;
+                  color: white;
+                  overflow: hidden;
+
+                  &-label {
+                    display: flex;
+                    color: $trout;
+                    font-family: 'euclid_flexregular';
+                    font-size: 1.4em;
+                    cursor: pointer;
+                    padding-bottom: 0em;
+                    padding-top:0.5em;
+
+                    /* Icon */
+                    &:hover {
+                      color:$turquoise_blue;
+                    }
+                    &::after {
+                      content:url('../img/artefact_accordeon_unchecked.png');
+                      width: 1em;
+                      height: 1em;
+                      transition: all .35s;
+                      margin-left:10px;
+                    }
+                  }
+
+                  &-content {
+                    border-left:white solid 2px;
+                    max-height: 0;
+                    padding-left: 20px;
+                    color: white;
+                    background: white;
+                    transition: all .35s;
+
+                    .text_level_16pt_bold{
+                        padding-top: 10px;
+                    }
+                  }
+                }
+
+                // :checked
+                input:checked {
+                  + .tab-label {
+                    color:$charade;
+                    &::after {
+                      content:url('../img/artefact_accordeon_checked.png');
+                      transform: rotate(180deg);
+                      margin-top: -5px;
+                    }
+                  }
+                  ~ .tab-content {
+                    max-height: 100vh;
+                    color: $trout;
+                    border-left:$turquoise_blue solid 2px;
+                    margin-left: 10px;
+                  }
+                }
+            }
+        }
+
+        .services_zone_2{
+
+            background-color:$lighter-gray;
+            margin-top: 80px;
+            padding-top:80px;
+            padding-bottom:30px;
+
+            .mega_title_2{
+                padding-bottom:50px;
+            }
+
+            .col-lg-4{
+                padding:0px!important;
+            }
+
+            .text_level_14pt{
+                margin-bottom: 50px;
+            }
+
+            .text_level_16pt_bold{
+                margin-top: 40px;
+                line-height: 0em;
+            }
+        }
+
+
+
+        .services_zone_2::after{
+            content: '';
+            display: block;
+            background-color:$lighter-gray;
+            height: 642px;
+            width: 30%;
+            position:absolute;
+            right:0;
+            margin-top: -612px;
+            z-index: -1;
+        }
+
 }
 
 
@@ -2648,7 +3500,7 @@
 
         .light_title_1{
             font-family: 'euclid_flexlight';
-            font-size: 1.4em;
+            font-size: 1.9em;
         }
 
          .light_title_2{
@@ -2935,7 +3787,6 @@
 
     footer{
         background-color:$charade;
-        margin-top: 50px;
         padding-left:0!important;
         padding-right:0!important;
         padding-bottom:20px;
@@ -3107,6 +3958,139 @@
             }
         }
 
+        .zone_contact_2{
+            background-color:$lighter-gray;
+            margin-top: 90px;
+            padding-top:60px;
+            padding-bottom:60px;
+
+            .mega_title_1{
+                font-size: 1.1em;
+                margin-bottom: 40px;
+            }
+
+            a{
+                border: 4px solid #8d78ff;
+                font-size: 1.1em;
+                line-height: 0em;
+                font-family: 'euclid_flexbold';
+                color: #8d78ff;
+                padding-top: 12px;
+                -webkit-transition: all 0.6s;
+                -moz-transition: all 0.6s;
+                -o-transition: all 0.6s;
+                transition: all 0.6s;
+                padding-left: 20px;
+                padding-right: 30px;
+                background-color:$lighter-gray;
+
+                img{
+                    margin-left: 20px;
+                }
+            }
+
+            a:hover{
+                color: white;
+                background-color:$heliotrope;
+                text-decoration: none;
+            }
+        }
+
+
+
+        .zone_faq{
+            background: $trout;
+            margin-top: 120px;
+            padding-bottom:50px;
+            padding-top:80px;
+            padding-left: 50px!important;
+
+            .mega_title_2{
+                margin-bottom: 30px;
+                color: white!important;
+                letter-spacing: 0.1em;
+            }
+
+            input {
+                position: absolute;
+                opacity: 0;
+                z-index: -1;
+            }
+
+                /* Accordion styles */
+            .tabs {
+                overflow: hidden;
+            }
+
+            .tab {
+                width: 100%;
+                color: white;
+                overflow: hidden;
+
+                &-label {
+                    display: flex;
+                    color: white;
+                    font-family: 'euclid_flexregular';
+                    font-size: 1em;
+                    cursor: pointer;
+                    padding-bottom: 0em;
+                    padding-top:0.5em;
+
+                    /* Icon */
+                    &:hover {
+                      color:$turquoise_blue;
+                    }
+
+                    &::after {
+                      content:url('../img/artefact_accordeon_unchecked.png');
+                      width: 1em;
+                      height: 1em;
+                      transition: all .35s;
+                      margin-left:10px;
+                    }
+                }
+
+                &-content {
+                    max-height: 0;
+                    color: $trout;
+                    transition: all .35s;
+
+                    .text_level_16pt_bold{
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+                // :checked
+            input:checked {
+
+                + .tab-label {
+                    color:white;
+
+                    &::after {
+                      content:url('../img/artefact_accordeon_checked.png');
+                      transform: rotate(180deg);
+                      margin-top: -5px;
+                    }
+                }
+
+                ~ .tab-content {
+                    max-height: 100vh;
+                    color: white;
+                }
+            }
+        }
+
+        .zone_faq::before{
+            content: url('../img/artefact_services_2.png');
+            display: block;
+            height: 60px;
+            width: 60px;
+            position:absolute;
+            margin-top: -140px;
+            left: 0;
+        }
+
 
     /* HOME ***********************/
 
@@ -3162,7 +4146,7 @@
             padding-left: 0 !important;
             background-color: $lighter-gray;
             max-width: 100% !important;
-            height: 800px;
+            height: 650px;
             position: absolute;
             margin-top: -0px;
             z-index: -1;
@@ -3260,6 +4244,7 @@
 
         .contact_content{
             margin-top: 100px;
+            margin-bottom: 80px;
 
             .mega_title_2{
                 margin-top: 10px;
@@ -3518,7 +4503,157 @@
         }
 
 
+
+    /* SERVICES *********************/
+
+        .services_hero{
+            margin-top: 150px;
+
+            .light_title_1{
+                color: $heliotrope;
+            }
+
+            .text_level_16pt{
+                color: $trout;
+            }
+
+            .explications{
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 40px;
+                padding-bottom: 20px;
+                background-color: $lighter-gray;
+            }
+
+            .explications::before{
+                content:url('../img/artefact_services_1.png');
+                display: block;
+                width: 14px;
+                height: 28px;
+                position: absolute;
+                margin-top: 340px;
+                margin-left: -120px;
+            }
+        }
+
+        .services_zone_1{
+            margin-top: 60px;
+
+            .mega_title_2{
+                margin-bottom: 20px;   
+            }
+
+            .zone_accordeon{
+
+                input {
+                  position: absolute;
+                  opacity: 0;
+                  z-index: -1;
+                }
+
+                /* Accordion styles */
+                .tabs {
+                  overflow: hidden;
+                }
+                .tab {
+                  width: 100%;
+                  color: white;
+                  overflow: hidden;
+
+                  &-label {
+                    display: flex;
+                    color: $trout;
+                    font-family: 'euclid_flexregular';
+                    font-size: 1em;
+                    cursor: pointer;
+                    padding-bottom: 0em;
+                    padding-top:0.5em;
+
+                    /* Icon */
+                    &:hover {
+                      color:$turquoise_blue;
+                    }
+                    &::after {
+                      content:url('../img/artefact_accordeon_unchecked.png');
+                      width: 1em;
+                      height: 1em;
+                      transition: all .35s;
+                      margin-left:10px;
+                    }
+                  }
+
+                  &-content {
+                    border-left:white solid 2px;
+                    max-height: 0;
+                    padding-left: 20px;
+                    color: white;
+                    background: white;
+                    transition: all .35s;
+
+                    .text_level_16pt_bold{
+                        padding-top: 10px;
+                    }
+                  }
+                }
+
+                // :checked
+                input:checked {
+                  + .tab-label {
+                    color:$charade;
+                    &::after {
+                      content:url('../img/artefact_accordeon_checked.png');
+                      transform: rotate(180deg);
+                      margin-top: -5px;
+                    }
+                  }
+                  ~ .tab-content {
+                    max-height: 100vh;
+                    color: $trout;
+                    border-left:$turquoise_blue solid 2px;
+                    margin-left: 10px;
+                  }
+                }
+            }
+        }
+
+        .services_zone_2{
+
+            background-color:$lighter-gray;
+            margin-top: 60px;
+            padding-top:50px;
+            padding-bottom:0px;
+
+            .mega_title_2{
+                padding-bottom:50px;
+
+            }
+
+            .col-lg-4{
+                padding:0px!important;
+            }
+
+            .text_level_14pt{
+                margin-bottom: 50px;
+            }
+
+            .text_level_16pt_bold{
+                margin-top: 40px;
+                line-height: 1em;
+            }
+        }
+
+
+
+        .services_zone_2::after{
+            display: none;    
+        }
 }
+
+
+
+
+
+
 
 
 
@@ -3552,12 +4687,12 @@
 
         .mega_title_2{
             font-family: 'euclid_flexbold';
-            font-size: 0.9em;
+            font-size: 1.3em;
         }
 
         .mega_title_3{
             font-family: 'euclid_flexbold';
-            font-size: 0.9em;
+            font-size: 1.2em;
         }
 
         .light_title_1{
@@ -3567,7 +4702,7 @@
 
          .light_title_2{
             font-family: 'euclid_flexlight';
-            font-size: 0.9em;
+            font-size: 1.2em;
         }
 
     /* TEXTS TYPOS **********************/
@@ -3589,19 +4724,19 @@
         .text_level_16pt{
             font-size: 1em;
             font-family: 'euclid_flexregular';
-            line-height: 1em;
+            line-height: 1.2em;
         }
 
         .text_level_14pt_bold{
             font-size: 0.9em;
             font-family: 'euclid_flexbold';
-            line-height: 1em;
+            line-height: 1.2em;
         }
 
         .text_level_14pt{
             font-size: 0.9em;
             font-family: 'euclid_flexlight';
-            line-height: 1em;
+            line-height: 1.2em;
         }
         
 
@@ -3628,7 +4763,7 @@
     }
 
     .no_padding_left{
-        padding-left:0!important;
+        padding-left:15px!important;
     }
 
     /* HEADER *********************/
@@ -3847,7 +4982,6 @@
 
     footer{
         background-color:$charade;
-        margin-top: 80px;
         padding-left:0!important;
         padding-right:0!important;
         padding-bottom:0px;
@@ -4019,6 +5153,139 @@
                 color: $charade;
             }
         }
+
+        .zone_contact_2{
+            background-color:$lighter-gray;
+            margin-top: 80px;
+            padding-top:60px;
+            padding-bottom:60px;
+
+            .mega_title_1{
+                font-size: 1.1em;
+                margin-bottom: 40px;
+            }
+
+            a{
+                border: 4px solid #8d78ff;
+                font-size: 1.1em;
+                line-height: 0em;
+                font-family: 'euclid_flexbold';
+                color: #8d78ff;
+                padding-top: 12px;
+                -webkit-transition: all 0.6s;
+                -moz-transition: all 0.6s;
+                -o-transition: all 0.6s;
+                transition: all 0.6s;
+                padding-left: 20px;
+                padding-right: 30px;
+                background-color:$lighter-gray;
+
+                img{
+                    margin-left: 20px;
+                }
+            }
+
+            a:hover{
+                color: white;
+                background-color:$heliotrope;
+                text-decoration: none;
+            }
+        }
+
+        .zone_faq{
+            background: $trout;
+            margin-top: 120px;
+            padding-bottom:50px;
+            padding-top:80px;
+            padding-left: 0px!important;
+
+            .mega_title_2{
+                margin-bottom: 30px;
+                color: white!important;
+                letter-spacing: 0.1em;
+            }
+
+            input {
+                position: absolute;
+                opacity: 0;
+                z-index: -1;
+            }
+
+                /* Accordion styles */
+            .tabs {
+                overflow: hidden;
+            }
+
+            .tab {
+                width: 100%;
+                color: white;
+                overflow: hidden;
+
+                &-label {
+                    display: flex;
+                    color: white;
+                    font-family: 'euclid_flexregular';
+                    font-size: 1em;
+                    cursor: pointer;
+                    padding-bottom: 0em;
+                    padding-top:0.5em;
+
+                    /* Icon */
+                    &:hover {
+                      color:$turquoise_blue;
+                    }
+
+                    &::after {
+                      content:url('../img/artefact_accordeon_unchecked.png');
+                      width: 1em;
+                      height: 1em;
+                      transition: all .35s;
+                      margin-left:10px;
+                    }
+                }
+
+                &-content {
+                    max-height: 0;
+                    color: $trout;
+                    transition: all .35s;
+
+                    .text_level_16pt_bold{
+                        padding-top: 10px;
+                    }
+                }
+            }
+
+                // :checked
+            input:checked {
+
+                + .tab-label {
+                    color:white;
+
+                    &::after {
+                      content:url('../img/artefact_accordeon_checked.png');
+                      transform: rotate(180deg);
+                      margin-top: -5px;
+                    }
+                }
+
+                ~ .tab-content {
+                    max-height: 100vh;
+                    color: white;
+                }
+            }
+        }
+
+        .zone_faq::before{
+            content: url('../img/artefact_services_2.png');
+            display: block;
+            height: 60px;
+            width: 60px;
+            position:absolute;
+            margin-top: -140px;
+            left: 0;
+        }
+
+
     /* HOME ***********************/
 
         .home_hero{
@@ -4142,7 +5409,7 @@
 
 
         .home_realisations{
-            margin-top: 50px;
+            margin-top: 80px;
 
             img{
                 max-width: 100%;
@@ -4159,7 +5426,7 @@
 
             .text_level_16pt_bold{
                 margin-top: 30px;
-                line-height: 0em;
+                line-height: 1.2em;
             }
 
             .text_level_14pt{
@@ -4451,6 +5718,152 @@
                 padding-right:15px!important;
             }
         }
+
+
+
+            /* SERVICES *********************/
+
+        .services_hero{
+            margin-top: 150px;
+
+            .light_title_1{
+                color: $heliotrope;
+            }
+
+            .text_level_16pt{
+                color: $trout;
+            }
+
+            .explications{
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 40px;
+                padding-bottom: 20px;
+                background-color: $lighter-gray;
+            }
+
+            .explications::before{
+                content:url('../img/artefact_services_1.png');
+                display: block;
+                width: 14px;
+                height: 28px;
+                position: absolute;
+                margin-top: 340px;
+                margin-left: -120px;
+            }
+        }
+
+        .services_zone_1{
+            margin-top: 60px;
+
+            .mega_title_2{
+                margin-bottom: 20px;   
+            }
+
+            .zone_accordeon{
+
+                input {
+                  position: absolute;
+                  opacity: 0;
+                  z-index: -1;
+                }
+
+                /* Accordion styles */
+                .tabs {
+                  overflow: hidden;
+                }
+                .tab {
+                  width: 100%;
+                  color: white;
+                  overflow: hidden;
+
+                  &-label {
+                    display: flex;
+                    color: $trout;
+                    font-family: 'euclid_flexregular';
+                    font-size: 1em;
+                    cursor: pointer;
+                    padding-bottom: 0em;
+                    padding-top:0.5em;
+
+                    /* Icon */
+                    &:hover {
+                      color:$turquoise_blue;
+                    }
+                    &::after {
+                      content:url('../img/artefact_accordeon_unchecked.png');
+                      width: 1em;
+                      height: 1em;
+                      transition: all .35s;
+                      margin-left:10px;
+                    }
+                  }
+
+                  &-content {
+                    border-left:white solid 2px;
+                    max-height: 0;
+                    padding-left: 20px;
+                    color: white;
+                    background: white;
+                    transition: all .35s;
+
+                    .text_level_16pt_bold{
+                        padding-top: 10px;
+                    }
+                  }
+                }
+
+                // :checked
+                input:checked {
+                  + .tab-label {
+                    color:$charade;
+                    &::after {
+                      content:url('../img/artefact_accordeon_checked.png');
+                      transform: rotate(180deg);
+                      margin-top: -5px;
+                    }
+                  }
+                  ~ .tab-content {
+                    max-height: 100vh;
+                    color: $trout;
+                    border-left:$turquoise_blue solid 2px;
+                    margin-left: 10px;
+                  }
+                }
+            }
+        }
+
+        .services_zone_2{
+
+            background-color:$lighter-gray;
+            margin-top: 60px;
+            padding-top:50px;
+            padding-bottom:0px;
+
+            .mega_title_2{
+                padding-bottom:50px;
+
+            }
+
+            .col-lg-4{
+                padding:0px!important;
+            }
+
+            .text_level_14pt{
+                margin-bottom: 50px;
+            }
+
+            .text_level_16pt_bold{
+                margin-top: 40px;
+                line-height: 1em;
+            }
+        }
+
+
+
+        .services_zone_2::after{
+            display: none;    
+        }
 }
 
 
@@ -4494,6 +5907,7 @@
 
     .mentions_legales{
         margin-top: 200px;
+        margin-bottom: 80px;
 
         h2{
             color: $trout;
