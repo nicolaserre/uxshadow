@@ -141,6 +141,11 @@
             font-size: 1.5em;
         }
 
+        .mega_title_3_light{
+            font-family: 'euclid_flexlight';
+            font-size: 1.5em;
+        }
+
 
         .light_title_1{
             font-family: 'euclid_flexlight';
@@ -189,29 +194,115 @@
 
     /* BUTTONS ********************/ 
 
-    .link_heliotrope{
-        font-family: 'euclid_flexregular';
-        color: $heliotrope;
-    }
+        .link_heliotrope{
+            font-family: 'euclid_flexregular';
+            color: $heliotrope;
+             -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .link_heliotrope:hover{
+            color: $heliotrope;
+        }
+
+        .btn_square_blue{
+            display: block;
+            font-family: 'euclid_flexbold';
+            color: $charade;
+            background-color:$turquoise_blue;
+            padding-top:20px;
+            padding-bottom:10px;
+            padding-left:20px!important;
+            width: 320px;
+             -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -o-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .btn_square_blue::after{
+            content: url('../img/artefact_btn_square_blue.png');
+            display: block;
+            height: 18px;
+            width: 9px;
+            position:absolute;
+            margin-top: -27px;
+            margin-left: 265px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .btn_square_blue:hover{
+            background-color:$keppel;
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn_square_blue:hover::after{
+            content: url('../img/artefact_btn_square_blue_hover.png');
+        }
+
+        .toggle_hide{
+             display: block;
+            font-family: 'euclid_flexbold';
+            color: $heliotrope;
+            border: solid 3px $heliotrope;
+            background-color:none;
+            padding-top: 16px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .btn_more_details{
+            background-color: none;
+            padding-top: 15px;
+            border: #8d78ff 4px solid;
+            color: #8d78ff;
+            font-family: 'euclid_flexbold';
+            padding-left: 20px;
+            padding-right: 20px;
+            cursor: pointer;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            border-radius:0px;
+        }
+
+         .btn_more_details:hover{
+            background-color: $heliotrope;
+            color: white;
+            border-radius:0px;
+         }
+
+          .btn_more_details:visited{
+            background-color: $heliotrope;
+            color: white;
+            border-radius:0px;
+         }
 
 
     /* COMMON ********************/
 
-    .supernova{
-        color: $supernova;
-    }
+        .supernova{
+            color: $supernova;
+        }
 
-    .heliotrope{
-        color: $heliotrope;
-    }
+        .heliotrope{
+            color: $heliotrope;
+        }
 
-    .no_padding_right{
-        padding-right:0!important;
-    }
+        .no_padding_right{
+            padding-right:0!important;
+        }
 
-    .no_padding_left{
-        padding-left:0!important;
-    }
+        .no_padding_left{
+            padding-left:0!important;
+        }
 
     /* HEADER *********************/
 
@@ -1210,7 +1301,130 @@
             margin-top: -678px;
             z-index: -1;
         }
+
+
+    /* FORMATIONS *********************/
+
+    .formations_hero{
+        margin-top: 200px;
+
+        h1{
+            color: $keppel;
+        }
+
+        img{
+            margin-top: 80px;
+        }
+
+        .text_level_16pt_bold{
+            margin-top: 25px;
+            color: $trout;
+        }
+
+        .text_level_16pt{
+            margin-top: 10px;
+            color: $trout;
+        }
+    }
+
+    .formations_zone_1{
+        color: $trout;
+        margin-top: 80px;
+        background-color: $lighter-gray;
+        padding-top: 52px;
+        padding-bottom: 30px;
+        padding-left: 45px !important;
+        padding-right: 45px !important;
+
+        li{
+            margin-top: 20px;
+        }
+    }
+
+    .formations_zone_1::after{
+        content: url(../img/artefact_services_1.png);
+        display: block;
+        transform: rotate(270deg);
+        height: 60px;
+        width: 60px;
+        margin-top: 29px;
+        position: absolute;
+        margin-left: -45px;
+    }
+
+    .formations_zone_2{
+        margin-top: 150px;
+
+        .img_1{
+            position: absolute;
+            margin-left: -150px;
+            margin-top: -100px;
+        }
+
+        .img_2{
+            position: absolute;
+            margin-left: -150px;
+            margin-top: 0px;
+        }
+
+        .mega_title_2{
+            margin-bottom: 80px;
+        }
+
+        .formation_2{
+            margin-top:100px;
+        }
+
+        .formation{
+            background-color: #FBFBFB;
+            padding-top: 70px;
+            padding-bottom: 53px;
+            padding-left: 70px !important;
+            padding-right: 70px !important;
+            margin-bottom: 80px;
+
+            .mega_title_3_light{
+                margin-top: 20px;
+            }
+
+            .text_level_16pt_bold{
+                margin-top: 40px;
+                margin-bottom: 0px;
+            }
+
+            .btn_square_blue{
+                margin-top: 30px;
+            }
+
+            .btn_more_details{
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .suite_formation{
+                .details_formation_1, .details_formation_2{
+                    display: none;
+                }
+
+                .bloc{
+                    border:solid 2px $periwinkle_gray;
+                    padding-right: 30px;
+                    padding-left: 40px;
+                    padding-bottom: 25px;
+                    margin-bottom:40px;
+                }
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
+
 
 
 
@@ -1253,6 +1467,11 @@
 
         .mega_title_3{
             font-family: 'euclid_flexbold';
+            font-size: 1.2em;
+        }
+
+        .mega_title_3_light{
+            font-family: 'euclid_flexlight';
             font-size: 1.2em;
         }
 
@@ -1308,6 +1527,85 @@
         color: $heliotrope;
         font-size:0.9em;
     }
+
+    .btn_square_blue{
+            display: block;
+            font-family: 'euclid_flexbold';
+            color: $charade;
+            background-color:$turquoise_blue;
+            padding-top:20px;
+            padding-bottom:10px;
+            padding-left:20px!important;
+            width: 320px;
+             -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -o-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .btn_square_blue::after{
+            content: url('../img/artefact_btn_square_blue.png');
+            display: block;
+            height: 18px;
+            width: 9px;
+            position:absolute;
+            margin-top: -27px;
+            margin-left: 265px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .btn_square_blue:hover{
+            background-color:$keppel;
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn_square_blue:hover::after{
+            content: url('../img/artefact_btn_square_blue_hover.png');
+        }
+
+        .toggle_hide{
+             display: block;
+            font-family: 'euclid_flexbold';
+            color: $heliotrope;
+            border: solid 3px $heliotrope;
+            background-color:none;
+            padding-top: 16px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .btn_more_details{
+            background-color: none;
+            padding-top: 15px;
+            border: #8d78ff 4px solid;
+            color: #8d78ff;
+            font-family: 'euclid_flexbold';
+            padding-left: 20px;
+            padding-right: 20px;
+            cursor: pointer;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            border-radius:0px;
+        }
+
+         .btn_more_details:hover{
+            background-color: $heliotrope;
+            color: white;
+            border-radius:0px;
+         }
+
+          .btn_more_details:visited{
+            background-color: $heliotrope;
+            color: white;
+            border-radius:0px;
+         }
+
 
 
     /* COMMON ********************/
@@ -2335,6 +2633,121 @@
             margin-top: -640px;
             z-index: -1;
         }
+
+
+    /* FORMATIONS *********************/
+
+    .formations_hero{
+        margin-top: 200px;
+
+        h1{
+            color: $keppel;
+        }
+
+        img{
+            margin-top: 80px;
+        }
+
+        .text_level_16pt_bold{
+            margin-top: 25px;
+            color: $trout;
+        }
+
+        .text_level_16pt{
+            margin-top: 10px;
+            color: $trout;
+        }
+    }
+
+    .formations_zone_1{
+        color: $trout;
+        margin-top: 80px;
+        background-color: $lighter-gray;
+        padding-top: 52px;
+        padding-bottom: 30px;
+        padding-left: 45px !important;
+        padding-right: 45px !important;
+
+        li{
+            margin-top: 20px;
+        }
+    }
+
+    .formations_zone_1::after{
+        content: url(../img/artefact_services_1.png);
+        display: block;
+        transform: rotate(270deg);
+        height: 60px;
+        width: 60px;
+        margin-top: 29px;
+        position: absolute;
+        margin-left: -45px;
+    }
+
+    .formations_zone_2{
+        margin-top: 150px;
+
+        .img_1{
+            position: absolute;
+            margin-left: -150px;
+            margin-top: -100px;
+        }
+
+        .img_2{
+            position: absolute;
+            margin-left: -150px;
+            margin-top: 0px;
+        }
+
+        .mega_title_2{
+            margin-bottom: 80px;
+        }
+
+        .formation_2{
+            margin-top:100px;
+        }
+
+        .formation{
+            background-color: #FBFBFB;
+            padding-top: 70px;
+            padding-bottom: 53px;
+            padding-left: 70px !important;
+            padding-right: 70px !important;
+            margin-bottom: 80px;
+
+            .mega_title_3_light{
+                margin-top: 20px;
+            }
+
+            .text_level_16pt_bold{
+                margin-top: 40px;
+                margin-bottom: 0px;
+            }
+
+            .btn_square_blue{
+                margin-top: 30px;
+            }
+
+            .btn_more_details{
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .suite_formation{
+                .details_formation_1, .details_formation_2{
+                    display: none;
+                }
+
+                .bloc{
+                    border:solid 2px $periwinkle_gray;
+                    padding-right: 30px;
+                    padding-left: 40px;
+                    padding-bottom: 25px;
+                    margin-bottom:40px;
+                }
+            }
+        }
+    }
 }
 
 
@@ -2379,6 +2792,11 @@
 
         .mega_title_3{
             font-family: 'euclid_flexbold';
+            font-size: 0.9em;
+        }
+
+         .mega_title_3_light{
+            font-family: 'euclid_flexlight';
             font-size: 0.9em;
         }
 
@@ -2434,6 +2852,85 @@
             color: $heliotrope;
             font-size: 0.9em;
         }
+
+         .btn_square_blue{
+            display: block;
+            font-family: 'euclid_flexbold';
+            color: $charade;
+            background-color:$turquoise_blue;
+            padding-top:20px;
+            padding-bottom:10px;
+            padding-left:20px!important;
+            width: 320px;
+             -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -o-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .btn_square_blue::after{
+            content: url('../img/artefact_btn_square_blue.png');
+            display: block;
+            height: 18px;
+            width: 9px;
+            position:absolute;
+            margin-top: -27px;
+            margin-left: 265px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .btn_square_blue:hover{
+            background-color:$keppel;
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn_square_blue:hover::after{
+            content: url('../img/artefact_btn_square_blue_hover.png');
+        }
+
+        .toggle_hide{
+             display: block;
+            font-family: 'euclid_flexbold';
+            color: $heliotrope;
+            border: solid 3px $heliotrope;
+            background-color:none;
+            padding-top: 16px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .btn_more_details{
+            background-color: none;
+            padding-top: 15px;
+            border: #8d78ff 4px solid;
+            color: #8d78ff;
+            font-family: 'euclid_flexbold';
+            padding-left: 20px;
+            padding-right: 20px;
+            cursor: pointer;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            border-radius:0px;
+        }
+
+         .btn_more_details:hover{
+            background-color: $heliotrope;
+            color: white;
+            border-radius:0px;
+         }
+
+          .btn_more_details:visited{
+            background-color: $heliotrope;
+            color: white;
+            border-radius:0px;
+         }
+
 
 
     /* COMMON ********************/
@@ -3454,6 +3951,121 @@
             z-index: -1;
         }
 
+
+    /* FORMATIONS *********************/
+
+    .formations_hero{
+        margin-top: 200px;
+
+        h1{
+            color: $keppel;
+        }
+
+        img{
+            margin-top: 50px;
+        }
+
+        .text_level_16pt_bold{
+            margin-top: 25px;
+            color: $trout;
+        }
+
+        .text_level_16pt{
+            margin-top: 10px;
+            color: $trout;
+        }
+    }
+
+    .formations_zone_1{
+        color: $trout;
+        margin-top: 80px;
+        background-color: $lighter-gray;
+        padding-top: 52px;
+        padding-bottom: 30px;
+        padding-left: 45px !important;
+        padding-right: 45px !important;
+
+        li{
+            margin-top: 20px;
+        }
+    }
+
+    .formations_zone_1::after{
+        content: url(../img/artefact_services_1.png);
+        display: block;
+        transform: rotate(270deg);
+        height: 60px;
+        width: 60px;
+        margin-top: 29px;
+        position: absolute;
+        margin-left: -45px;
+    }
+
+    .formations_zone_2{
+        margin-top: 150px;
+
+        .img_1{
+            position: absolute;
+            margin-left: -150px;
+            margin-top: -100px;
+        }
+
+        .img_2{
+            position: absolute;
+            margin-left: -150px;
+            margin-top: 0px;
+        }
+
+        .mega_title_2{
+            margin-bottom: 0px;
+        }
+
+        .formation_2{
+            margin-top:100px;
+        }
+
+        .formation{
+            background-color: #FBFBFB;
+            padding-top: 60px;
+            padding-bottom: 33px;
+            padding-left: 40px !important;
+            padding-right: 40px !important;
+            margin-bottom: 00px;
+
+            .mega_title_3_light{
+                margin-top: 20px;
+            }
+
+            .text_level_16pt_bold{
+                margin-top: 40px;
+                margin-bottom: 0px;
+            }
+
+            .btn_square_blue{
+                margin-top: 30px;
+            }
+
+            .btn_more_details{
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .suite_formation{
+                .details_formation_1, .details_formation_2{
+                    display: none;
+                }
+
+                .bloc{
+                    border:solid 2px $periwinkle_gray;
+                    padding-right: 30px;
+                    padding-left: 40px;
+                    padding-bottom: 25px;
+                    margin-bottom:40px;
+                }
+            }
+        }
+    }
+
 }
 
 
@@ -3495,6 +4107,11 @@
 
         .mega_title_3{
             font-family: 'euclid_flexbold';
+            font-size: 0.9em;
+        }
+
+         .mega_title_3_light{
+            font-family: 'euclid_flexlight';
             font-size: 0.9em;
         }
 
@@ -3550,6 +4167,85 @@
         color: $heliotrope;
         font-size: 0.8em;
     }
+
+
+         .btn_square_blue{
+            display: block;
+            font-family: 'euclid_flexbold';
+            color: $charade;
+            background-color:$turquoise_blue;
+            padding-top:20px;
+            padding-bottom:10px;
+            padding-left:20px!important;
+            width: 320px;
+             -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -o-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .btn_square_blue::after{
+            content: url('../img/artefact_btn_square_blue.png');
+            display: block;
+            height: 18px;
+            width: 9px;
+            position:absolute;
+            margin-top: -27px;
+            margin-left: 265px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .btn_square_blue:hover{
+            background-color:$keppel;
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn_square_blue:hover::after{
+            content: url('../img/artefact_btn_square_blue_hover.png');
+        }
+
+        .toggle_hide{
+             display: block;
+            font-family: 'euclid_flexbold';
+            color: $heliotrope;
+            border: solid 3px $heliotrope;
+            background-color:none;
+            padding-top: 16px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .btn_more_details{
+            background-color: none;
+            padding-top: 15px;
+            border: #8d78ff 4px solid;
+            color: #8d78ff;
+            font-family: 'euclid_flexbold';
+            padding-left: 20px;
+            padding-right: 20px;
+            cursor: pointer;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            border-radius:0px;
+        }
+
+         .btn_more_details:hover{
+            background-color: $heliotrope;
+            color: white;
+            border-radius:0px;
+         }
+
+          .btn_more_details:visited{
+            background-color: $heliotrope;
+            color: white;
+            border-radius:0px;
+         }
 
 
     /* COMMON ********************/
@@ -4642,11 +5338,124 @@
             }
         }
 
-
-
         .services_zone_2::after{
             display: none;    
         }
+
+/* FORMATIONS *********************/
+
+    .formations_hero{
+        margin-top: 200px;
+
+        h1{
+            color: $keppel;
+        }
+
+        img{
+            margin-top: 50px;
+        }
+
+        .text_level_16pt_bold{
+            margin-top: 25px;
+            color: $trout;
+        }
+
+        .text_level_16pt{
+            margin-top: 10px;
+            color: $trout;
+        }
+    }
+
+    .formations_zone_1{
+        color: $trout;
+        margin-top: 40px;
+        background-color: $lighter-gray;
+        padding-top: 52px;
+        padding-bottom: 30px;
+        padding-left: 45px !important;
+        padding-right: 45px !important;
+
+        li{
+            margin-top: 20px;
+        }
+    }
+
+    .formations_zone_1::after{
+        content: url(../img/artefact_services_1.png);
+        display: block;
+        transform: rotate(270deg);
+        height: 60px;
+        width: 60px;
+        margin-top: 29px;
+        position: absolute;
+        margin-left: -45px;
+    }
+
+    .formations_zone_2{
+        margin-top: 150px;
+
+        .img_1{
+            position: absolute;
+            margin-left: -150px;
+            margin-top: -100px;
+        }
+
+        .img_2{
+            position: absolute;
+            margin-left: -150px;
+            margin-top: 0px;
+        }
+
+        .mega_title_2{
+            margin-bottom: 0px;
+        }
+
+        .formation_2{
+            margin-top:100px;
+        }
+
+        .formation{
+            background-color: #FBFBFB;
+            padding-top: 60px;
+            padding-bottom: 33px;
+            padding-left: 40px !important;
+            padding-right: 40px !important;
+            margin-bottom: 00px;
+
+            .mega_title_3_light{
+                margin-top: 20px;
+            }
+
+            .text_level_16pt_bold{
+                margin-top: 40px;
+                margin-bottom: 0px;
+            }
+
+            .btn_square_blue{
+                margin-top: 30px;
+            }
+
+            .btn_more_details{
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+
+            .suite_formation{
+                .details_formation_1, .details_formation_2{
+                    display: none;
+                }
+
+                .bloc{
+                    border:solid 2px $periwinkle_gray;
+                    padding-right: 30px;
+                    padding-left: 40px;
+                    padding-bottom: 25px;
+                    margin-bottom:40px;
+                }
+            }
+        }
+    }
+
 }
 
 
@@ -4693,6 +5502,11 @@
         .mega_title_3{
             font-family: 'euclid_flexbold';
             font-size: 1.2em;
+        }
+
+          .mega_title_3_light{
+            font-family: 'euclid_flexlight';
+            font-size: 0.9em;
         }
 
         .light_title_1{
@@ -4746,6 +5560,85 @@
         font-family: 'euclid_flexregular';
         color: $heliotrope;
     }
+
+
+         .btn_square_blue{
+            display: block;
+            font-family: 'euclid_flexbold';
+            color: $charade;
+            background-color:$turquoise_blue;
+            padding-top:20px;
+            padding-bottom:10px;
+            padding-left:20px!important;
+            width: 320px;
+             -webkit-transition: all 0.1s;
+            -moz-transition: all 0.1s;
+            -o-transition: all 0.1s;
+            transition: all 0.1s;
+        }
+
+        .btn_square_blue::after{
+            content: url('../img/artefact_btn_square_blue.png');
+            display: block;
+            height: 18px;
+            width: 9px;
+            position:absolute;
+            margin-top: -27px;
+            margin-left: 265px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+
+        .btn_square_blue:hover{
+            background-color:$keppel;
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn_square_blue:hover::after{
+            content: url('../img/artefact_btn_square_blue_hover.png');
+        }
+
+        .toggle_hide{
+             display: block;
+            font-family: 'euclid_flexbold';
+            color: $heliotrope;
+            border: solid 3px $heliotrope;
+            background-color:none;
+            padding-top: 16px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        .btn_more_details{
+            background-color: none;
+            padding-top: 15px;
+            border: #8d78ff 4px solid;
+            color: #8d78ff;
+            font-family: 'euclid_flexbold';
+            padding-left: 20px;
+            padding-right: 20px;
+            cursor: pointer;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            -o-transition: all 0.3s;
+            transition: all 0.3s;
+            border-radius:0px;
+        }
+
+         .btn_more_details:hover{
+            background-color: $heliotrope;
+            color: white;
+            border-radius:0px;
+         }
+
+          .btn_more_details:visited{
+            background-color: $heliotrope;
+            color: white;
+            border-radius:0px;
+         }
 
 
     /* COMMON ********************/
@@ -5864,6 +6757,122 @@
         .services_zone_2::after{
             display: none;    
         }
+
+
+  /* FORMATIONS *********************/
+
+    .formations_hero{
+        margin-top: 200px;
+
+        h1{
+            color: $keppel;
+        }
+
+        img{
+            margin-top: 50px;
+        }
+
+        .text_level_16pt_bold{
+            margin-top: 25px;
+            color: $trout;
+        }
+
+        .text_level_16pt{
+            margin-top: 10px;
+            color: $trout;
+        }
+    }
+
+    .formations_zone_1{
+        color: $trout;
+        margin-top: 40px;
+        background-color: $lighter-gray;
+        padding-top: 52px;
+        padding-bottom: 30px;
+        padding-left: 25px !important;
+        padding-right: 25px !important;
+
+        li{
+            margin-top: 20px;
+        }
+    }
+
+    .formations_zone_1::after{
+        content: url(../img/artefact_services_1.png);
+        display: block;
+        transform: rotate(270deg);
+        height: 60px;
+        width: 60px;
+        margin-top: 29px;
+        position: absolute;
+        margin-left: -45px;
+    }
+
+    .formations_zone_2{
+        margin-top: 150px;
+
+        .img_1{
+            position: absolute;
+            margin-left: -150px;
+            margin-top: -100px;
+        }
+
+        .img_2{
+            position: absolute;
+            margin-left: -150px;
+            margin-top: 0px;
+        }
+
+        .mega_title_2{
+            margin-bottom: 0px;
+            padding-left: 15px;
+        }
+
+        .formation_2{
+            margin-top:100px;
+        }
+
+        .formation{
+            background-color: #FBFBFB;
+            padding-top: 60px;
+            padding-bottom: 33px;
+            padding-left: 25px !important;
+            padding-right: 25px !important;
+            margin-bottom: 0px;
+
+            .mega_title_3_light{
+                margin-top: 20px;
+            }
+
+            .text_level_16pt_bold{
+                margin-top: 40px;
+                margin-bottom: 0px;
+            }
+
+            .btn_square_blue{
+                margin-top: 30px;
+            }
+
+            .btn_more_details{
+                margin-top: 30px;
+                margin-bottom:30px;
+            }
+
+            .suite_formation{
+                .details_formation_1, .details_formation_2{
+                    display: none;
+                }
+
+                .bloc{
+                    border:solid 2px $periwinkle_gray;
+                    padding-right: 30px;
+                    padding-left: 40px;
+                    padding-bottom: 25px;
+                    margin-bottom:40px;
+                }
+            }
+        }
+    }
 }
 
 
