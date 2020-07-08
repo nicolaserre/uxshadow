@@ -180,13 +180,13 @@
         }
 
         .text_level_14pt_bold{
-            font-size: 0.8em;
+            font-size: 0.9em;
             font-family: 'euclid_flexbold';
             line-height: 1.3;
         }
 
         .text_level_14pt{
-            font-size: 0.8em;
+            font-size: 0.9em;
             font-family: 'euclid_flexlight';
             line-height: 1.3;
         }
@@ -804,7 +804,7 @@
             padding-left: 0 !important;
             background-color: $lighter-gray;
             max-width: 76% !important;
-            height: 770px;
+            height: 820px;
             position: absolute;
             margin-top: -100px;
             z-index: -1;
@@ -879,6 +879,10 @@
                     -moz-transition: all 0.6s;
                     -o-transition: all 0.6s;
                     transition: all 0.6s;
+                }
+
+                .text_level_14pt{
+                    padding-right:60px;
                 }
             }
 
@@ -5570,7 +5574,7 @@
             padding-top:20px;
             padding-bottom:10px;
             padding-left:20px!important;
-            width: 320px;
+            width: 250px;
              -webkit-transition: all 0.1s;
             -moz-transition: all 0.1s;
             -o-transition: all 0.1s;
@@ -5579,7 +5583,7 @@
 
         .btn_square_blue::after{
             content: url('../img/artefact_btn_square_blue.png');
-            display: block;
+            display: none;
             height: 18px;
             width: 9px;
             position:absolute;
@@ -6600,7 +6604,7 @@
             }
 
             .text_level_16pt{
-                line-height: 0em!important;
+                line-height: 1em!important;
                 margin-bottom: 50px;
             }
             .no_padding_left{
