@@ -2,16 +2,7 @@
 <html lang="fr">
     <head>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165370632-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-165370632-1');
-        </script>
-
+        <script src="https://cdn.jsdelivr.net/npm/tarteaucitronjs/tarteaucitron.js"> </script>
 
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
@@ -40,7 +31,6 @@
         <title>uxShadow - Agence UX/UI à Grenoble et Lyon</title>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-        <script src="../js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
 
         <link rel="icon" type="image/png" href="img/favicon.png"/>
     </head>
@@ -64,7 +54,7 @@
             </div>
         </div>
 
-    
+
         <div class="container home_hero">
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-10 order-sm-1 order-2">
@@ -140,7 +130,7 @@
                     <img src="img/icon_solutions.png"/>
                     <p class="text_level_16pt_bold">Concevoir des solutions adéquates<span class="supernova">.</span></p>
                     <p class="text_level_14pt">
-                        Les utilisateurs sont les premiers générateurs de solutions et d’idées d’améliorations. Nous les intégrons dans notre processus de conception afin d’explorer différentes pistes pour vous trouver des solutions d’interfaces durables, différenciantes et répondant à leurs besoins. 
+                        Les utilisateurs sont les premiers générateurs de solutions et d’idées d’améliorations. Nous les intégrons dans notre processus de conception afin d’explorer différentes pistes pour vous trouver des solutions d’interfaces durables, différenciantes et répondant à leurs besoins.
                     </p>
                 </div>
 
@@ -156,7 +146,7 @@
                     <img src="img/icon_good_solutions.png"/>
                     <p class="text_level_16pt_bold">S’assurer que c’est la bonne solution<span class="supernova">.</span></p>
                     <p class="text_level_14pt">
-                        Comment être certain de réaliser un produit correspondant aux besoins des utilisateurs ? Nous effectuons des tests avec vos utilisateurs pour valider les différentes fonctionnalités, l’ergonomie, et le design du produit. 
+                        Comment être certain de réaliser un produit correspondant aux besoins des utilisateurs ? Nous effectuons des tests avec vos utilisateurs pour valider les différentes fonctionnalités, l’ergonomie, et le design du produit.
                     </p>
                 </div>
 
@@ -196,13 +186,13 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <p class="text_level_16pt_bold">Conception de A à Z<span class="supernova">.</span></p>
                             <p class="text_level_14pt">
-                                En nous appuyant sur une démarche scientifique et des méthodes éprouvées permettant de recueillir les besoins de vos utilisateurs nous mettons en oeuvre nos compétences pour vous concevoir un nouveau logiciel. De la recherche utilisateur à l’écriture des user stories, nous nous occupons de tout. 
+                                En nous appuyant sur une démarche scientifique et des méthodes éprouvées permettant de recueillir les besoins de vos utilisateurs nous mettons en oeuvre nos compétences pour vous concevoir un nouveau logiciel. De la recherche utilisateur à l’écriture des user stories, nous nous occupons de tout.
                             </p>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
                             <p class="text_level_16pt_bold">Consulting dans votre équipe<span class="supernova">.</span></p>
                             <p class="text_level_14pt">
-                                Intégrés dans votre équipe : nous vous conseillons dans toutes les phases de conception, nous vous aidons à explorer les besoins utilisateurs, nous réalisons des maquettes basse fidélité et des maquettes graphiques dédiées à favoriser la discussion et la prise de décision, et nous fournissons aux développeurs des spécifications techniques et fonctionnelles pour faciliter le développement. 
+                                Intégrés dans votre équipe : nous vous conseillons dans toutes les phases de conception, nous vous aidons à explorer les besoins utilisateurs, nous réalisons des maquettes basse fidélité et des maquettes graphiques dédiées à favoriser la discussion et la prise de décision, et nous fournissons aux développeurs des spécifications techniques et fonctionnelles pour faciliter le développement.
                             </p>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
@@ -278,7 +268,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-12 col-12">
                     <h1 class="mega_title_2">
-                        Nos Clients<span class="supernova">.</span> 
+                        Nos Clients<span class="supernova">.</span>
                     </h1>
                 </div>
 
@@ -322,7 +312,7 @@
             </div>
         </div>
 
-        
+
 
         <div class="container-fluid zone_contact_2 no_padding_left">
             <div class="container">
@@ -392,7 +382,13 @@
                         <img src="img/footer_logo_uxshadow.svg">
                     </div>
                     <div class="col-11 text-right">
-                        <a href="mentions_legales.html" class="link_mentions_legales">Mentions Légales</a>
+                        <a
+                            href="#"
+                            class="link_mentions_legales"
+                            style="float: unset;"
+                            onclick='tarteaucitron.userInterface.openPanel();'
+                            >Gestion des cookies&nbsp;&nbsp;&nbsp;</a>
+                        <a href="mentions_legales.html" class="link_mentions_legales">Mentions légales</a>
                         <a href="https://www.linkedin.com/company/uxshadow/"><img src="img/footer_linkedin.svg" class="linkedin"></a>
                         <a href="https://twitter.com/uxshadow?lang=fr"><img src="img/footer_twitter.svg" class="twitter"></a>
                     </div>
@@ -401,7 +397,7 @@
         </footer>
 
 
-        <!-- Menu Mobile --> 
+        <!-- Menu Mobile -->
             <div class="content-menu-mobile d-block d-md-none" id="content-menu">
                 <div class="container">
                   <div class="col-xs-1">
@@ -434,7 +430,7 @@
                   </div>
                 </div>
           </div>
-          
+
 
 
 
@@ -451,7 +447,7 @@
                 });
             </script>
 
-        <!-- Change class header Tablet and Desktop when user is scrolling --> 
+        <!-- Change class header Tablet and Desktop when user is scrolling -->
             <script type="text/javascript">
                 $(function() {
                     //caches a jQuery object containing the header element
@@ -469,7 +465,7 @@
             </script>
 
 
-        <!-- Add Parallax Effect on pictures with .thumbnail_scroll class --> 
+        <!-- Add Parallax Effect on pictures with .thumbnail_scroll class -->
             <script src="js/simpleParallax.js"></script>
             <script type="text/javascript">
                 var image = document.getElementsByClassName('thumbnail_scroll');
@@ -481,6 +477,8 @@
                     overflow: true
                 });
             </script>
+
+            <script src="./js/scripts.js"> </script>
 
     </body>
 </html>

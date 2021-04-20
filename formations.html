@@ -2,16 +2,7 @@
 <html lang="fr">
     <head>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165370632-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-165370632-1');
-        </script>
-
+        <script src="https://cdn.jsdelivr.net/npm/tarteaucitronjs/tarteaucitron.js"> </script>
 
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
@@ -32,7 +23,6 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-        <script src="../js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
 
         <link rel="icon" type="image/png" href="img/favicon.png"/>
     </head>
@@ -65,8 +55,8 @@
             <div class="row">
                     <div class="col-lg-5 col-md-12 ">
                         <p class="text_level_16pt">
-                            Nous vous proposons des formations courtes, intensives et immersives, à distance ou au sein de votre entreprise. 
-                        </p> 
+                            Nous vous proposons des formations courtes, intensives et immersives, à distance ou au sein de votre entreprise.
+                        </p>
                     </div>
             </div>
             <div class="row">
@@ -91,7 +81,7 @@
         </div>
 
         <div class="container formations_zone_1">
-            <div class="row">   
+            <div class="row">
                 <div class="col-lg-12">
                     <p class="text_level_16pt_bold">Nos formations sont à destination des :</p>
                     <ul class="text_level_16pt">
@@ -191,7 +181,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
                 </div>
                 <div class="col-lg-2">
                         <img class="img_1 d-lg-block d-none" src="img/formation_img_1.png">
@@ -292,12 +282,12 @@
 
 
 
-       
 
 
 
-       
-        
+
+
+
 
 
 
@@ -314,7 +304,7 @@
         </div>
 
 
-    
+
         <footer class="container-fluid">
             <div class="container pre_footer">
                 <div class="row">
@@ -371,7 +361,13 @@
                         <img src="img/footer_logo_uxshadow.svg">
                     </div>
                     <div class="col-11 text-right">
-                        <a href="mentions_legales.html" class="link_mentions_legales">Mentions Légales</a>
+                        <a
+                            href="#"
+                            class="link_mentions_legales"
+                            style="float: unset;"
+                            onclick='tarteaucitron.userInterface.openPanel();'
+                            >Gestion des cookies&nbsp;&nbsp;&nbsp;</a>
+                        <a href="mentions_legales.html" class="link_mentions_legales">Mentions légales</a>
                         <a href="#NULL"><img src="img/footer_linkedin.svg" class="linkedin"></a>
                         <a href="https://twitter.com/uxshadow?lang=fr"><img src="img/footer_twitter.svg" class="twitter"></a>
                     </div>
@@ -380,7 +376,7 @@
         </footer>
 
 
-        <!-- Menu Mobile --> 
+        <!-- Menu Mobile -->
             <div class="content-menu-mobile d-block d-md-none" id="content-menu">
                 <div class="container">
                   <div class="col-xs-1">
@@ -440,7 +436,7 @@
             </script>
 
 
-        <!-- Change class header Tablet and Desktop when user is scrolling --> 
+        <!-- Change class header Tablet and Desktop when user is scrolling -->
             <script type="text/javascript">
                 $(function() {
                     //caches a jQuery object containing the header element
@@ -458,7 +454,7 @@
             </script>
 
 
-        <!-- Add Parallax Effect on pictures with .thumbnail_scroll class --> 
+        <!-- Add Parallax Effect on pictures with .thumbnail_scroll class -->
             <script src="js/simpleParallax.js"></script>
             <script type="text/javascript">
                 var image = document.getElementsByClassName('thumbnail_scroll');
@@ -500,5 +496,8 @@
                   });
                 }
             </script>
+
+            <script src="./js/scripts.js"> </script>
+
     </body>
 </html>

@@ -2,16 +2,7 @@
 <html lang="fr">
     <head>
 
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165370632-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-165370632-1');
-        </script>
-
+        <script src="https://cdn.jsdelivr.net/npm/tarteaucitronjs/tarteaucitron.js"> </script>
 
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
@@ -26,13 +17,12 @@
         <meta name="title" content="uxShadow - Agence UX et UI Design basée à Grenoble et Lyon.">
 
         <title>uxShadow - Contact</title>
-        
+
 
         <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
         <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-        <script src="../js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
 
         <link rel="icon" type="image/png" href="img/favicon.png"/>
     </head>
@@ -56,7 +46,7 @@
             </div>
         </div>
 
-    
+
         <div class="container contact_content">
             <div class="row">
                 <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
@@ -160,7 +150,13 @@
                         <img src="img/footer_logo_uxshadow.svg">
                     </div>
                     <div class="col-11 text-right">
-                        <a href="mentions_legales.html" class="link_mentions_legales">Mentions Légales</a>
+                        <a
+                            href="#"
+                            class="link_mentions_legales"
+                            style="float: unset;"
+                            onclick='tarteaucitron.userInterface.openPanel();'
+                            >Gestion des cookies&nbsp;&nbsp;&nbsp;</a>
+                        <a href="mentions_legales.html" class="link_mentions_legales">Mentions légales</a>
                         <a href="https://www.linkedin.com/company/uxshadow/"><img src="img/footer_linkedin.svg" class="linkedin"></a>
                         <a href="https://twitter.com/uxshadow?lang=fr"><img src="img/footer_twitter.svg" class="twitter"></a>
                     </div>
@@ -169,7 +165,7 @@
         </footer>
 
 
-        <!-- Menu Mobile --> 
+        <!-- Menu Mobile -->
             <div class="content-menu-mobile d-block d-md-none" id="content-menu">
                 <div class="container">
                   <div class="col-xs-1">
@@ -219,7 +215,7 @@
             </script>
 
 
-        <!-- Change class header Tablet and Desktop when user is scrolling --> 
+        <!-- Change class header Tablet and Desktop when user is scrolling -->
             <script type="text/javascript">
                 $(function() {
                     //caches a jQuery object containing the header element
@@ -237,7 +233,7 @@
             </script>
 
 
-        <!-- Add Parallax Effect on pictures with .thumbnail_scroll class --> 
+        <!-- Add Parallax Effect on pictures with .thumbnail_scroll class -->
             <script src="js/simpleParallax.js"></script>
             <script type="text/javascript">
                 var image = document.getElementsByClassName('thumbnail_scroll');
@@ -249,6 +245,8 @@
                     overflow: true
                 });
             </script>
+
+            <script src="./js/scripts.js"> </script>
 
     </body>
 </html>
