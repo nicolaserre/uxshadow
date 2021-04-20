@@ -2,17 +2,7 @@
 <html lang="fr">
     <head>
 
-
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-165370632-1"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-165370632-1');
-        </script>
-
+        <script src="https://cdn.jsdelivr.net/npm/tarteaucitronjs/tarteaucitron.js"> </script>
 
         <!-- En-tête de la page -->
         <meta charset="utf-8" />
@@ -33,7 +23,6 @@
         <link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.css">
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
-        <script src="../js/js.cookie.js" charset="utf-8" type="text/javascript"></script>
 
         <link rel="icon" type="image/png" href="img/favicon.png"/>
     </head>
@@ -57,7 +46,7 @@
             </div>
         </div>
 
-    
+
         <div class="container mentions_legales">
             <div class="row">
                 <div class="col-lg-12">
@@ -71,7 +60,7 @@
                     <strong>Responsable publication</strong> : Nicolas Serré – nicolas@sogilis.com<br />
                     <strong>Webmaster</strong> : Nicolas Serré – nicolas@sogilis.com<br />
                     <strong>Hébergeur</strong> : github Pages<br />
-                   
+
 
                     <h3>2. Conditions générales d’utilisation du site et des services proposés.</h3>
                     <p>L’utilisation du site <a href="http://www.uxshadow.com/">www.uxshadow.com</a> implique l’acceptation pleine et entière des conditions générales d’utilisation ci-après décrites. Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment, les utilisateurs du site <a href="http://www.uxshadow.com/">www.uxshadow.com</a> sont donc invités à les consulter de manière régulière.</p>
@@ -122,7 +111,7 @@
             </div>
         </div>
 
-        
+
 
 
         <footer class="container-fluid">
@@ -181,7 +170,13 @@
                         <img src="img/footer_logo_uxshadow.svg">
                     </div>
                     <div class="col-11 text-right">
-                        <a href="mentions_legales.html" class="link_mentions_legales">Mentions Légales</a>
+                        <a
+                            href="#"
+                            class="link_mentions_legales"
+                            style="float: unset;"
+                            onclick='tarteaucitron.userInterface.openPanel();'
+                            >Gestion des cookies&nbsp;&nbsp;&nbsp;</a>
+                        <a href="mentions_legales.html" class="link_mentions_legales">Mentions légales</a>
                         <a href="https://www.linkedin.com/company/uxshadow/"><img src="img/footer_linkedin.svg" class="linkedin"></a>
                         <a href="https://twitter.com/uxshadow?lang=fr"><img src="img/footer_twitter.svg" class="twitter"></a>
                     </div>
@@ -190,7 +185,7 @@
         </footer>
 
 
-        <!-- Menu Mobile --> 
+        <!-- Menu Mobile -->
             <div class="content-menu-mobile d-block d-md-none" id="content-menu">
                 <div class="container">
                   <div class="col-xs-1">
@@ -224,8 +219,8 @@
                 </div>
           </div>
 
-          
-          
+
+
         <!-- Script Display Menu Mobile -->
             <script>
                 $('.menuBtn').click(function() {
@@ -240,7 +235,7 @@
             </script>
 
 
-        <!-- Change class header Tablet and Desktop when user is scrolling --> 
+        <!-- Change class header Tablet and Desktop when user is scrolling -->
             <script type="text/javascript">
                 $(function() {
                     //caches a jQuery object containing the header element
@@ -258,7 +253,7 @@
             </script>
 
 
-        <!-- Add Parallax Effect on pictures with .thumbnail_scroll class --> 
+        <!-- Add Parallax Effect on pictures with .thumbnail_scroll class -->
             <script src="js/simpleParallax.js"></script>
             <script type="text/javascript">
                 var image = document.getElementsByClassName('thumbnail_scroll');
@@ -270,6 +265,8 @@
                     overflow: true
                 });
             </script>
+
+            <script src="./js/scripts.js"> </script>
 
     </body>
 </html>
