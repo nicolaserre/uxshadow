@@ -91,7 +91,7 @@
     /*Primary*/
     $supernova:#ffd400;
     $turquoise_blue:#5ae2cb;
-    $heliotrope:#8d78ff;
+    $heliotrope:#7b5df0;
     $charade:#242630;
     $concrete:#f2f2f2;
 
@@ -115,9 +115,13 @@
     $anakiwa:#a1ffed;
 
     /*Purple*/
+    $portage:#8d78ff;
     $melrose:#9e94ff;
     $perfume:#b2b0ff;
     $fog:#ccccff;
+
+    /*Red*/
+    $red_arrow:#ff8080;
 
 
 
@@ -139,6 +143,11 @@
         .mega_title_3{
             font-family: 'euclid_flexbold';
             font-size: 1.5em;
+        }
+
+        .mega_title_4{
+            font-family: 'euclid_flexbold';
+            font-size: 1.2em;
         }
 
         .mega_title_3_light{
@@ -369,6 +378,25 @@
                 opacity: 1;
                 margin-top: 6px;
             }
+            
+
+            .link_agence_clicked, .link_formations_clicked, .link_services_clicked, .link_contact_clicked, .link_realisations_clicked{
+                color: $keppel;
+            }
+
+            .link_agence_clicked::before, .link_formations_clicked::before,.link_services_clicked::before, .link_contact_clicked::before, .link_realisations_clicked::before{
+                opacity: 1;
+                margin-top: 6px;
+                content:url('../img/artefact_menu.png');
+                width: 8px;
+                height: 10px;
+                position: absolute;
+                margin-left: -14px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+            }
         }
     }
 
@@ -443,6 +471,24 @@
             .link_contact:hover::before{
                 opacity: 1;
                 margin-top: 6px;
+            }
+
+            .link_agence_clicked, .link_formations_clicked, .link_services_clicked, .link_contact_clicked, .link_realisations_clicked{
+                color: $keppel;
+            }
+
+            .link_agence_clicked::before, .link_formations_clicked::before,.link_services_clicked::before, .link_contact_clicked::before, .link_realisations_clicked::before{
+                opacity: 1;
+                margin-top: 6px;
+                content:url('../img/artefact_menu.png');
+                width: 8px;
+                height: 10px;
+                position: absolute;
+                margin-left: -14px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
             }
         }
     }
@@ -735,7 +781,7 @@
                 }
 
                 ~ .tab-content {
-                    max-height: 100vh;
+                    max-height: 350vh;
                     color: white;
                 }
             }
@@ -863,6 +909,11 @@
         .home_realisations{
             margin-top: 100px;
 
+            a, a:hover{
+                color :$tundora;
+                text-decoration: none;
+            }
+
             img{
                 width: 95%;
             }
@@ -973,6 +1024,17 @@
                     font-family: 'euclid_flexmedium';
                 }
 
+                label{
+                    font-family: 'euclid_flexregular';
+                    line-height: 1.3;
+                    color: $charade;
+                    margin-top: 20px;
+
+                    span{
+                        color: $red_arrow;
+                    }                   
+                }
+
                 input[type="text"], input[type="email"]{
                     padding-top:20px;
                     border:none;
@@ -986,13 +1048,8 @@
                     font-family: 'euclid_flexmedium';
                 }
 
-                input[type="email"]{
-                    margin-top: 20px;
-                }
-
                 textarea{
                     height: 200px;
-                    margin-top: 20px;
                     padding-top:20px;
                     padding-left:20px;
                     -webkit-box-shadow:inset 0px 0px 0px 1px $trout;
@@ -1258,7 +1315,7 @@
                     }
                   }
                   ~ .tab-content {
-                    max-height: 100vh;
+                    max-height: 350vh;
                     color: $trout;
                     border-left:$turquoise_blue solid 2px;
                     margin-left: 10px;
@@ -1420,6 +1477,167 @@
             }
         }
     }
+
+    /* PROJECTS *********************/
+
+    .project_hero{
+        margin-top: 200px;
+
+        .light_title_1{
+            color: $tundora;
+        }
+
+        .text_level_16pt{
+            color: $trout;
+        }
+
+        .explications{
+            padding-left:60px;
+            padding-right:60px;
+            padding-top:60px;
+            padding-bottom:40px;
+            background-color: $lighter-gray;
+        }
+
+        .explications::before{
+            content:url('../img/artefact_services_1.png');
+            display: block;
+            width: 14px;
+            height: 28px;
+            position: absolute;
+            margin-top: 360px;
+            margin-left: -120px;
+        } 
+    }
+
+    .project_header{
+        margin-top: 150px;
+
+        .btn_retour_projet{
+            color:$tundora;
+            font-family: 'euclid_flexregular';
+            font-size: 0.9em;
+            text-decoration: none;
+        }
+
+        img{
+            margin-top: -4px;
+            padding-right:10px;
+        }
+
+        .btn_retour_projet:hover{
+            color: $turquoise_blue;
+        }
+
+        .mega_title_2{
+            margin-top: 50px;
+            margin-bottom: 50px;
+            color: $charade;
+        }
+
+        .left{
+            .text_level_16pt{
+                line-height: 0;
+                color:$rock_blue;
+            }
+
+            .text_level_16pt_bold{
+                color: $charade;
+            }
+
+            .client{
+                margin-top: 25px;
+            }
+        }  
+    }
+
+
+    .project_block_img_text_1{
+        margin-top: 80px;
+        margin-bottom: 150px;
+    }
+
+    .project_block_img_text_1::after {
+        content: url(../img/artefact_pattern_yellow.png);
+        display: block;
+        height: 60px;
+        width: 60px;
+        margin-top: -1px;
+        position: absolute;
+        margin-left: 30px;
+    }
+
+    .project_block_img_text_2{
+        margin-bottom: 120px;
+    }
+
+    .project_block_img_text_2 .image_project::after{
+        content: url(../img/artefact_triangle_heliotrope.svg);
+        transform: rotate(90deg);
+        display: block;
+        height: 60px;
+        width: 60px;
+        margin-top: -1px;
+        position: absolute;
+        margin-left: -60px;
+    }
+
+    .project_block_img_text_3{
+        margin-bottom: 120px;
+    }
+
+    .project_block_img_text_3 .image_project::after{
+        content: url(../img/artefact_services_2.png);
+        transform: rotate(90deg);
+        display: block;
+        height: 60px;
+        width: 60px;
+        margin-top: 0px;
+        position: absolute;
+        margin-left: -1px;
+    }
+
+    .project_block_titre_seul{
+        margin-bottom: 120px;
+    }
+
+    .project_block_text_seul{
+        margin-bottom: 120px;
+
+        .mega_title_3{
+            margin-bottom: 30px;
+        }
+
+        p{
+            margin-bottom: 20px;
+        }
+    }
+
+    .project_block_citation::after{
+        content: url(../img/artefact_services_1.png);
+        display: block;
+        height: 60px;
+        width: 60px;
+        margin-top: -26px;
+        position: absolute;
+        margin-left: -63px;
+    }
+
+    .project_block_autres_projet{
+        margin-top:150px;
+    }
+
+    .project_block_img_seul{
+        margin-bottom: 100px;
+
+        img{
+            width: 100%;
+        }
+    }
+
+    .ombre-portee{
+    }
+
 }
 
 
@@ -1697,6 +1915,24 @@
                 opacity: 1;
                 margin-top: 6px;
             }
+
+            .link_agence_clicked, .link_formations_clicked, .link_services_clicked, .link_contact_clicked, .link_realisations_clicked{
+                color: $keppel;
+            }
+
+            .link_agence_clicked::before, .link_formations_clicked::before,.link_services_clicked::before, .link_contact_clicked::before, .link_realisations_clicked::before{
+                opacity: 1;
+                margin-top: 6px;
+                content:url('../img/artefact_menu.png');
+                width: 8px;
+                height: 10px;
+                position: absolute;
+                margin-left: -14px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+            }
         }
     }
 
@@ -1766,6 +2002,24 @@
             .link_contact:hover::before{
                 opacity: 1;
                 margin-top: 6px;
+            }
+
+            .link_agence_clicked, .link_formations_clicked, .link_services_clicked, .link_contact_clicked, .link_realisations_clicked{
+                color: $keppel;
+            }
+
+            .link_agence_clicked::before, .link_formations_clicked::before,.link_services_clicked::before, .link_contact_clicked::before, .link_realisations_clicked::before{
+                opacity: 1;
+                margin-top: 6px;
+                content:url('../img/artefact_menu.png');
+                width: 8px;
+                height: 10px;
+                position: absolute;
+                margin-left: -14px;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
             }
         }
     }
@@ -2056,7 +2310,7 @@
                 }
 
                 ~ .tab-content {
-                    max-height: 100vh;
+                    max-height: 350vh;
                     color: white;
                 }
             }
@@ -2277,6 +2531,17 @@
                 padding-right:30px;
                 padding-bottom:40px;
 
+                label{
+                    font-family: 'euclid_flexregular';
+                    line-height: 1.3;
+                    color: $charade;
+                    margin-top: 20px;
+
+                    span{
+                        color: $red_arrow;
+                    }                   
+                }
+
                 input, textarea{
                     width: 100%;
                     border:solid $trout 1px;
@@ -2297,13 +2562,9 @@
                     font-family: 'euclid_flexmedium';
                 }
 
-                input[type="email"]{
-                    margin-top: 20px;
-                }
 
                 textarea{
                     height: 200px;
-                    margin-top: 20px;
                     padding-top:20px;
                     padding-left:20px;
                     -webkit-box-shadow:inset 0px 0px 0px 1px $trout;
@@ -3020,6 +3281,24 @@
                     opacity: 1;
                     margin-top: 6px;
                 }
+
+                .link_agence_clicked, .link_formations_clicked, .link_services_clicked, .link_contact_clicked, .link_realisations_clicked{
+                    color: $keppel;
+                }
+
+                .link_agence_clicked::before, .link_formations_clicked::before,.link_services_clicked::before, .link_contact_clicked::before, .link_realisations_clicked::before{
+                    opacity: 1;
+                    margin-top: 6px;
+                    content:url('../img/artefact_menu.png');
+                    width: 8px;
+                    height: 10px;
+                    position: absolute;
+                    margin-left: -14px;
+                    -webkit-transition: all 0.3s;
+                    -moz-transition: all 0.3s;
+                    -o-transition: all 0.3s;
+                    transition: all 0.3s;
+                }
             }
         }
 
@@ -3089,6 +3368,24 @@
                 .link_contact:hover::before{
                     opacity: 1;
                     margin-top: 6px;
+                }
+
+                .link_agence_clicked, .link_formations_clicked, .link_services_clicked, .link_contact_clicked, .link_realisations_clicked{
+                color: $keppel;
+                }
+
+                .link_agence_clicked::before, .link_formations_clicked::before,.link_services_clicked::before, .link_contact_clicked::before, .link_realisations_clicked::before{
+                    opacity: 1;
+                    margin-top: 6px;
+                    content:url('../img/artefact_menu.png');
+                    width: 8px;
+                    height: 10px;
+                    position: absolute;
+                    margin-left: -14px;
+                    -webkit-transition: all 0.3s;
+                    -moz-transition: all 0.3s;
+                    -o-transition: all 0.3s;
+                    transition: all 0.3s;
                 }
             }
         }
@@ -3592,6 +3889,17 @@
                 padding-right:20px;
                 padding-bottom:30px;
 
+                label{
+                    font-family: 'euclid_flexregular';
+                    line-height: 1.3;
+                    color: $charade;
+                    margin-top: 20px;
+
+                    span{
+                        color: $red_arrow;
+                    }                   
+                }
+
                 input, textarea{
                     width: 100%;
                     border:solid $trout 1px;
@@ -3612,13 +3920,8 @@
                     font-family: 'euclid_flexmedium';
                 }
 
-                input[type="email"]{
-                    margin-top: 20px;
-                }
-
                 textarea{
                     height: 200px;
-                    margin-top: 20px;
                     padding-top:20px;
                     padding-left:20px;
                     -webkit-box-shadow:inset 0px 0px 0px 1px $trout;
@@ -4987,6 +5290,17 @@
                 padding-right:20px;
                 padding-bottom:30px;
 
+                label{
+                    font-family: 'euclid_flexregular';
+                    line-height: 1.3;
+                    color: $charade;
+                    margin-top: 20px;
+
+                    span{
+                        color: $red_arrow;
+                    }                   
+                }
+
                 input, textarea{
                     width: 100%;
                     border:solid $trout 1px;
@@ -5008,13 +5322,8 @@
                     font-size: 0.8em;
                 }
 
-                input[type="email"]{
-                    margin-top: 20px;
-                }
-
                 textarea{
                     height: 200px;
-                    margin-top: 20px;
                     padding-top:20px;
                     padding-left:20px;
                     -webkit-box-shadow:inset 0px 0px 0px 1px $trout;
@@ -6063,7 +6372,7 @@
 
             a{
                 border: 4px solid #8d78ff;
-                font-size: 1.1em;
+                font-size: 0.8em;
                 line-height: 0em;
                 font-family: 'euclid_flexbold';
                 color: #8d78ff;
@@ -6376,6 +6685,17 @@
                 padding-right:20px;
                 padding-bottom:30px;
 
+                label{
+                    font-family: 'euclid_flexregular';
+                    line-height: 1.3;
+                    color: $charade;
+                    margin-top: 20px;
+
+                    span{
+                        color: $red_arrow;
+                    }                   
+                }
+
                 input, textarea{
                     width: 100%;
                     border:solid $trout 1px;
@@ -6385,7 +6705,7 @@
 
                 input[type="text"], input[type="email"]{
                     padding-top:20px;
-                    border:none;
+                    border:solid $trout 1px;
                     padding-bottom:5px;
                     padding-left:20px;
                     line-height: 2.1em;
@@ -6397,19 +6717,14 @@
                     font-size: 0.8em;
                 }
 
-                input[type="email"]{
-                    margin-top: 20px;
-                }
-
                 textarea{
                     height: 200px;
-                    margin-top: 20px;
                     padding-top:20px;
                     padding-left:20px;
                     -webkit-box-shadow:inset 0px 0px 0px 1px $trout;
                     -moz-box-shadow:inset 0px 0px 0px 1px $trout;
                     box-shadow:inset 0px 0px 0px 2px $trout;
-                    border:none;
+                    border:solid $trout 1px;
                     color: $trout;
                     font-size: 0.8em;
                 }
@@ -6720,7 +7035,7 @@
                     }
                   }
                   ~ .tab-content {
-                    max-height: 100vh;
+                    max-height: 350vh;
                     color: $trout;
                     border-left:$turquoise_blue solid 2px;
                     margin-left: 10px;
