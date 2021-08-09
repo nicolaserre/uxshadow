@@ -5663,7 +5663,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
         -webkit-box-shadow: inset 0px 0px 0px 3px #5ae2cb;
         -moz-box-shadow: inset 0px 0px 0px 3px #5ae2cb;
         box-shadow: inset 0px 0px 0px 3px #5ae2cb;
-        border: none; }
+        border: solid #5ae2cb 1px; }
       /* line 6741, ../sass/style.scss */
       .contact_content .formulaire input[type="submit"] {
         padding-top: 25px;
