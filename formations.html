@@ -30,6 +30,9 @@
     </head>
 
     <body>
+        <a name="top"></a>
+        <a href="#top" class="back_to_top">TOP</a>
+
 
         <div class="container-fluid header_content d-md-block d-none">
             <div class="container">
@@ -450,6 +453,24 @@
                             header.removeClass('header_content').addClass("header_content_scroll");
                         } else {
                             header.removeClass("header_content_scroll").addClass('header_content');
+                        }
+                    });
+                });
+            </script>
+
+
+            <!-- Change class Back to Top Button when user is scrolling --> 
+            <script type="text/javascript">
+                $(function() {
+                    //caches a jQuery object containing the header element
+                    var header = $(".back_to_top");
+                    $(window).scroll(function() {
+                        var scroll = $(window).scrollTop();
+
+                        if (scroll >= 200) {
+                            header.removeClass('back_to_top').addClass("back_to_top_scroll");
+                        } else {
+                            header.removeClass("back_to_top_scroll").addClass('back_to_top');
                         }
                     });
                 });
