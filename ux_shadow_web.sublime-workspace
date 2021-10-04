@@ -168,12 +168,21 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 8329,
+				"buffer_size": 11496,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 183921,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -213,10 +222,13 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/nicolas/Creative Cloud Files/Nicolas/4_ux_Shadow/2_Web/4_Integration_web"
+		"/Users/nicolas/Creative Cloud Files/Nicolas/4_ux_Shadow/2_Web/devuxshadow",
+		"/Users/nicolas/Creative Cloud Files/Nicolas/4_ux_Shadow/2_Web/devuxshadow/sass",
+		"/Users/nicolas/Creative Cloud Files/Nicolas/4_ux_Shadow/2_Web/devuxshadow/stylesheets"
 	],
 	"file_history":
 	[
+		"/Users/nicolas/Creative Cloud Files/Nicolas/4_ux_Shadow/2_Web/devuxshadow/index.html",
 		"/Users/nicolas/Documents/Site Nico V3/2_Integration/sass/style.scss",
 		"/Users/nicolas/Documents/Site Nico V3/2_Integration/project_hexo_app.html",
 		"/Users/nicolas/Documents/Site Nico V3/2_Integration/index.html",
@@ -236,7 +248,7 @@
 	],
 	"find":
 	{
-		"height": 24.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -250,6 +262,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"input [type",
+			"input"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -267,16 +281,16 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "contact.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8329,
+						"buffer_size": 11496,
 						"regions":
 						{
 						},
@@ -295,6 +309,36 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 183921,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								172475,
+								172475
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/SCSS.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 100576.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
