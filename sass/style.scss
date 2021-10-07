@@ -214,8 +214,8 @@
             display: block;
             background-color: $portage;
             border-radius: 300px;
-            padding-top: 26px;
-            padding-bottom: 7px;
+            padding-top: 6px;
+            padding-bottom: 12px;
             padding-right: 13px;
             padding-left: 11px;
             color: white;
@@ -240,8 +240,8 @@
             display: block;
             background-color: $portage;
             border-radius: 300px;
-            padding-top: 26px;
-            padding-bottom: 7px;
+            padding-top: 6px;
+            padding-bottom: 12px;
             padding-right: 13px;
             padding-left: 11px;
             color: white;
@@ -1620,6 +1620,10 @@
     .project_block_img_text_1{
         margin-top: 80px;
         margin-bottom: 150px;
+
+        img{
+            width: 100%;
+        }
     }
 
     .project_block_img_text_1::after {
@@ -2584,10 +2588,16 @@
             .text_level_16pt_bold{
                 margin-top: 30px;
                 line-height: 0em;
+                color: $tundora;
             }
 
             .text_level_14pt{
                 line-height: 1em;
+                color: $tundora;
+            }
+
+            a:hover{
+                text-decoration: none;
             }
         }
 
@@ -3199,7 +3209,13 @@
     .project_block_img_text_1{
         margin-top: 80px;
         margin-bottom: 150px;
+
+        img{
+            width: 100%;
+        }
     }
+
+    
 
     .project_block_img_text_1::after {
         content: url(../img/artefact_pattern_yellow.png);
@@ -4147,10 +4163,16 @@
             .text_level_16pt_bold{
                 margin-top: 30px;
                 line-height: 0em;
+                color: $tundora;
             }
 
             .text_level_14pt{
                 line-height: 1em;
+                color: $tundora;
+            }
+
+            a:hover{
+                text-decoration: none;
             }
         }
 
@@ -4762,7 +4784,13 @@
     .project_block_img_text_1{
         margin-top: 80px;
         margin-bottom: 150px;
+
+        img{
+            width: 100%;
+        }
     }
+
+    
 
     .project_block_img_text_1::after {
         content: url(../img/artefact_pattern_yellow.png);
@@ -5750,10 +5778,12 @@
             .text_level_16pt_bold{
                 margin-top: 30px;
                 line-height: 0em;
+                color: $tundora;
             }
 
             .text_level_14pt{
                 line-height: 1em;
+                color: $tundora;
             }
         }
 
@@ -6361,7 +6391,12 @@
     .project_block_img_text_1{
         margin-top: 80px;
         margin-bottom: 150px;
+
+        img{
+            width: 100%;
+        }
     }
+
 
     .project_block_img_text_1::after {
         content: url(../img/artefact_pattern_yellow.png);
@@ -7328,12 +7363,14 @@
         .home_realisations{
             margin-top: 80px;
 
+
             img{
                 max-width: 100%;
             }
 
             .project_section{
                 margin-bottom: 20px;
+
             }
 
             .mega_title_2{
@@ -7344,10 +7381,12 @@
             .text_level_16pt_bold{
                 margin-top: 30px;
                 line-height: 1.2em;
+                color: $tundora;
             }
 
             .text_level_14pt{
                 line-height: 1em;
+                color: $tundora;
             }
         }
 
@@ -7981,7 +8020,13 @@
     .project_block_img_text_1{
         margin-top: 80px;
         margin-bottom: 150px;
+
+        img{
+            width: 100%;
+        }
     }
+
+    
 
     .project_block_img_text_1::after {
         content: url(../img/artefact_pattern_yellow.png);
