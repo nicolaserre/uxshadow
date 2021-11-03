@@ -4,36 +4,62 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
-  <loc>https://uxshadow.com</loc>
-  <lastmod>2020-05-06T12:18:56+00:00</lastmod>
+  <loc>https://www.uxshadow.com/</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://uxshadow.com/index.html</loc>
-  <lastmod>2020-05-06T12:18:56+00:00</lastmod>
+  <loc>https://www.uxshadow.com/index.html</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uxshadow.com/services.html</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uxshadow.com/projects-home.html</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uxshadow.com/formations.html</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uxshadow.com/agence.html</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uxshadow.com/contact.html</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.uxshadow.com/project-dgbirds.html</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://uxshadow.com/services.html</loc>
-  <lastmod>2020-05-06T12:18:56+00:00</lastmod>
+  <loc>https://www.uxshadow.com/project-ergho.html</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://uxshadow.com/agence.html</loc>
-  <lastmod>2020-05-06T12:18:56+00:00</lastmod>
+  <loc>https://www.uxshadow.com/project-slate-academy.html</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://uxshadow.com/contact.html</loc>
-  <lastmod>2020-05-06T12:18:56+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://uxshadow.com/mentions_legales.html</loc>
-  <lastmod>2020-05-06T12:18:56+00:00</lastmod>
+  <loc>https://www.uxshadow.com/mentions_legales.html</loc>
+  <lastmod>2021-11-03T16:47:46+00:00</lastmod>
   <priority>0.50</priority>
 </url>
 
