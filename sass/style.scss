@@ -135,26 +135,31 @@
         .mega_title_1{
             font-family: 'euclid_flexbold';
             font-size: 3em;
+            color: $charade;
         }
 
         .mega_title_2{
             font-family: 'euclid_flexbold';
             font-size: 2em;
+            color: $trout;
         }
 
         .mega_title_3{
             font-family: 'euclid_flexbold';
             font-size: 1.5em;
+            color: $trout;
         }
 
         .mega_title_4{
             font-family: 'euclid_flexbold';
             font-size: 1.2em;
+            color: $trout;
         }
 
         .mega_title_3_light{
             font-family: 'euclid_flexlight';
             font-size: 1.5em;
+            color: $trout;
         }
 
 
@@ -181,25 +186,29 @@
         .text_level_16pt_bold{
             font-size: 1em;
             font-family: 'euclid_flexbold';
-            line-height: 1.3;
+            line-height: 1.5;
+            color: $trout;
         }
 
         .text_level_16pt{
             font-size: 1em;
             font-family: 'euclid_flexregular';
-            line-height: 1.3;
+            line-height: 1.5;
+            color: $trout;
         }
 
         .text_level_14pt_bold{
             font-size: 0.9em;
             font-family: 'euclid_flexbold';
-            line-height: 1.3;
+            line-height: 1.5;
+            color: $trout;
         }
 
         .text_level_14pt{
             font-size: 0.9em;
-            font-family: 'euclid_flexlight';
-            line-height: 1.3;
+            font-family: 'euclid_flexregular';
+            line-height: 1.5;
+            color: $trout;
         }
         
 
@@ -276,6 +285,7 @@
             -moz-transition: all 0.3s;
             -o-transition: all 0.3s;
             transition: all 0.3s;
+            text-decoration: underline;
         }
 
         .link_heliotrope:hover{
@@ -285,8 +295,9 @@
         .btn_square_blue{
             display: block;
             font-family: 'euclid_flexbold';
-            color: $charade;
-            background-color:$turquoise_blue;
+            color: $heliotrope;
+            border:solid 4px $melrose;
+            background-color:none;
             padding-top:20px;
             padding-bottom:10px;
             padding-left:20px!important;
@@ -312,7 +323,7 @@
         }
 
         .btn_square_blue:hover{
-            background-color:$keppel;
+            background-color:$heliotrope;
             color: white;
             text-decoration: none;
         }
@@ -335,8 +346,8 @@
         .btn_more_details{
             background-color: none;
             padding-top: 15px;
-            border: #8d78ff 4px solid;
-            color: #8d78ff;
+            border: $keppel 4px solid;
+            color: $keppel;
             font-family: 'euclid_flexbold';
             padding-left: 20px;
             padding-right: 20px;
@@ -349,13 +360,15 @@
         }
 
          .btn_more_details:hover{
-            background-color: $heliotrope;
+            background-color: $keppel;
+            border:4px solid $turquoise_blue;
             color: white;
             border-radius:0px;
          }
 
           .btn_more_details:visited{
-            background-color: $heliotrope;
+            background-color: $keppel;
+            border:4px solid $turquoise_blue;
             color: white;
             border-radius:0px;
          }
@@ -652,7 +665,7 @@
             }
 
             .link_mentions_legales{
-                color: $trout;
+                color:$periwinkle_gray;
                 font-size: 0.8em;
                 font-family: 'euclid_flexmedium';
                 -webkit-transition: all 0.6s;
@@ -938,7 +951,6 @@
 
             .text_level_16pt_bold{
                 margin-top: 40px;
-                line-height: 0em;
             }
         }
 
@@ -1066,6 +1078,7 @@
 
             a{
                 color: $heliotrope;
+                text-decoration: underline;
             }
 
             a:hover{
@@ -1172,7 +1185,7 @@
             padding-left: 0 !important;
             background-color: $lighter-gray;
             max-width: 50% !important;
-            height: 700px;
+            height: 750px;
             position: absolute;
             margin-top: 80px;
             z-index: -1;
@@ -1373,7 +1386,7 @@
                 // :checked
                 input:checked {
                   + .tab-label {
-                    color:$charade;
+                    color:$trout;
                     &::after {
                       content:url('../img/artefact_accordeon_checked.png');
                       transform: rotate(180deg);
@@ -1751,36 +1764,43 @@
         .mega_title_1{
             font-family: 'euclid_flexbold';
             font-size: 2.4em;
+            color: $charade;
         }
 
         .mega_title_2{
             font-family: 'euclid_flexbold';
             font-size: 1.6em;
+            color: $trout;
         }
 
         .mega_title_3{
             font-family: 'euclid_flexbold';
             font-size: 1.2em;
+            color: $trout;
         }
 
         .mega_title_4{
             font-family: 'euclid_flexbold';
             font-size: 1em;
+            color: $trout;
         }
 
         .mega_title_3_light{
             font-family: 'euclid_flexlight';
             font-size: 1.2em;
+            color: $trout;
         }
 
         .light_title_1{
             font-family: 'euclid_flexlight';
             font-size: 2.8em;
+            color: $trout;
         }
 
          .light_title_2{
             font-family: 'euclid_flexlight';
             font-size: 1.6em;
+            color: $trout;
         }
 
     /* TEXTS TYPOS **********************/
@@ -1794,27 +1814,31 @@
         }
 
         .text_level_16pt_bold{
-            font-size: 0.8em;
+            font-size: 0.9em;
             font-family: 'euclid_flexbold';
-            line-height: 1.3;
+            line-height: 1.5;
+            color: $trout;
         }
 
         .text_level_16pt{
-            font-size: 0.8em;
+            font-size: 0.9em;
             font-family: 'euclid_flexregular';
-            line-height: 1.3;
+            line-height: 1.5;
+            color: $trout;
         }
 
         .text_level_14pt_bold{
-            font-size: 0.7em;
+            font-size: 0.9em;
             font-family: 'euclid_flexbold';
-            line-height: 1.3;
+            line-height: 1.5;
+            color: $trout;
         }
 
         .text_level_14pt{
-            font-size: 0.7em;
-            font-family: 'euclid_flexlight';
-            line-height: 1.3;
+            font-size: 0.9em;
+            font-family: 'euclid_flexregular';
+            line-height: 1.5;
+            color: $trout;
         }
         
 
@@ -1887,13 +1911,15 @@
         font-family: 'euclid_flexregular';
         color: $heliotrope;
         font-size:0.9em;
+        text-decoration: underline;
     }
 
     .btn_square_blue{
             display: block;
             font-family: 'euclid_flexbold';
-            color: $charade;
-            background-color:$turquoise_blue;
+            color: $heliotrope;
+            background-color:none;
+            border:solid 4px $heliotrope;
             padding-top:20px;
             padding-bottom:10px;
             padding-left:20px!important;
@@ -1919,7 +1945,8 @@
         }
 
         .btn_square_blue:hover{
-            background-color:$keppel;
+            background-color:$heliotrope;
+            border:$melrose 4px solid;
             color: white;
             text-decoration: none;
         }
@@ -1942,8 +1969,8 @@
         .btn_more_details{
             background-color: none;
             padding-top: 15px;
-            border: #8d78ff 4px solid;
-            color: #8d78ff;
+            border: $keppel 4px solid;
+            color: $keppel;
             font-family: 'euclid_flexbold';
             padding-left: 20px;
             padding-right: 20px;
@@ -1956,13 +1983,15 @@
         }
 
          .btn_more_details:hover{
-            background-color: $heliotrope;
+            background-color: $keppel;
+            border:4px solid $turquoise_blue;
             color: white;
             border-radius:0px;
          }
 
           .btn_more_details:visited{
-            background-color: $heliotrope;
+            background-color: $keppel;
+            border:4px solid $turquoise_blue;
             color: white;
             border-radius:0px;
          }
@@ -2255,7 +2284,7 @@
             }
 
             .link_mentions_legales{
-                color: $trout;
+                color: $periwinkle_gray;
                 font-size: 0.8em;
                 font-family: 'euclid_flexmedium';
                 -webkit-transition: all 0.6s;
@@ -2539,7 +2568,6 @@
 
             .text_level_16pt_bold{
                 margin-top: 40px;
-                line-height: 0em;
             }
         }
 
@@ -2659,6 +2687,7 @@
 
             a{
                 color: $heliotrope;
+                text-decoration: underline;
             }
 
             a:hover{
@@ -2988,7 +3017,7 @@
                 // :checked
                 input:checked {
                   + .tab-label {
-                    color:$charade;
+                    color:$trout;
                     &::after {
                       content:url('../img/artefact_accordeon_checked.png');
                       transform: rotate(180deg);
@@ -3014,6 +3043,7 @@
 
             .mega_title_2{
                 padding-bottom:50px;
+                padding-top:80px;
             }
 
             .col-lg-4{
@@ -3365,36 +3395,43 @@
         .mega_title_1{
             font-family: 'euclid_flexbold';
             font-size: 1.8em;
+            color: $charade;
         }
 
         .mega_title_2{
             font-family: 'euclid_flexbold';
             font-size: 1.2em;
+            color: $trout;
         }
 
         .mega_title_3{
             font-family: 'euclid_flexbold';
             font-size: 0.9em;
+            color: $trout;
         }
 
         .mega_title_4{
             font-family: 'euclid_flexbold';
             font-size: 0.8em;
+            color: $trout;
         }
 
          .mega_title_3_light{
             font-family: 'euclid_flexlight';
             font-size: 0.9em;
+            color: $trout;
         }
 
         .light_title_1{
             font-family: 'euclid_flexlight';
             font-size: 2.1em;
+            color: $trout;
         }
 
          .light_title_2{
             font-family: 'euclid_flexlight';
             font-size: 1.2em;
+            color: $trout;
         }
 
     /* TEXTS TYPOS **********************/
@@ -3408,27 +3445,31 @@
         }
 
         .text_level_16pt_bold{
-            font-size: 0.8em;
+            font-size: 0.9em;
             font-family: 'euclid_flexbold';
             line-height: 1.3;
+            color: $trout;
         }
 
         .text_level_16pt{
-            font-size: 0.8em;
+            font-size: 0.9em;
             font-family: 'euclid_flexregular';
-            line-height: 1;
+            line-height: 1.3;
+            color: $trout;
         }
 
         .text_level_14pt_bold{
-            font-size: 0.7em;
+            font-size: 0.9em;
             font-family: 'euclid_flexbold';
-            line-height: 1;
+            line-height: 1.3;
+            color: $trout;
         }
 
         .text_level_14pt{
-            font-size: 0.7em;
-            font-family: 'euclid_flexlight';
-            line-height: 1;
+            font-size: 0.9em;
+            font-family: 'euclid_flexregular';
+            line-height: 1.3;
+            color: $trout;
         }
         
 
@@ -3501,13 +3542,15 @@
             font-family: 'euclid_flexregular';
             color: $heliotrope;
             font-size: 0.9em;
+            text-decoration: underline;
         }
 
          .btn_square_blue{
             display: block;
             font-family: 'euclid_flexbold';
-            color: $charade;
-            background-color:$turquoise_blue;
+            color: $heliotrope;
+            background-color:none;
+            border:4px solid $heliotrope;
             padding-top:20px;
             padding-bottom:10px;
             padding-left:20px!important;
@@ -3533,7 +3576,8 @@
         }
 
         .btn_square_blue:hover{
-            background-color:$keppel;
+            background-color:$heliotrope;
+            border:4px solid $melrose;
             color: white;
             text-decoration: none;
         }
@@ -3556,8 +3600,8 @@
         .btn_more_details{
             background-color: none;
             padding-top: 15px;
-            border: #8d78ff 4px solid;
-            color: #8d78ff;
+            border: $keppel 4px solid;
+            color: $keppel;
             font-family: 'euclid_flexbold';
             padding-left: 20px;
             padding-right: 20px;
@@ -3570,13 +3614,15 @@
         }
 
          .btn_more_details:hover{
-            background-color: $heliotrope;
+            background-color: $keppel;
+            border:4px solid $turquoise_blue;
             color: white;
             border-radius:0px;
          }
 
           .btn_more_details:visited{
-            background-color: $heliotrope;
+            background-color: $keppel;
+            border:4px solid $turquoise_blue;
             color: white;
             border-radius:0px;
          }
@@ -3867,7 +3913,7 @@
                 }
 
                 .link_mentions_legales{
-                    color: $trout;
+                    color: $periwinkle_gray;
                     font-size: 0.8em;
                     font-family: 'euclid_flexmedium';
                     -webkit-transition: all 0.6s;
@@ -4088,7 +4134,7 @@
             margin-top: 120px;
 
             .mega_title_1{
-                margin-top: 15vh;
+                margin-top: 5vh;
             }
 
             .mega_title_1::before{
@@ -4109,12 +4155,12 @@
             }
 
             img{
-                width: 110%;
+                width: 90%;
             }
         }
 
         .home_values{
-            margin-top: 10vh;
+            margin-top: 120px;
 
             .mega_title_2{
                 margin-bottom: 30px;
@@ -4144,8 +4190,10 @@
 
         .home_solutions_content{
 
+            margin-top: 80px;
+
             .mega_title_2{
-                padding-bottom:50px;
+                padding-bottom:20px;
                 padding-top:10px;
             }
 
@@ -4155,7 +4203,6 @@
 
             .text_level_16pt_bold{
                 margin-top: 20px;
-                line-height: 0em;
             }
 
             img{
@@ -4184,7 +4231,6 @@
             .text_level_16pt_bold{
                 margin-top: 20px;
                 margin-left: 30px;
-                line-height: 0!important;
             }
 
             .text_level_16pt_bold::before{
@@ -4193,7 +4239,7 @@
                 width: 14px;
                 height: 28px;
                 position: absolute;
-                margin-top: -15px;
+                margin-top: -7px;
                 margin-left: -25px;
             }
         }
@@ -4263,6 +4309,7 @@
 
             a{
                 color: $heliotrope;
+                text-decoration: underline;
             }
 
             a:hover{
@@ -4593,7 +4640,7 @@
                 // :checked
                 input:checked {
                   + .tab-label {
-                    color:$charade;
+                    color:$trout;
                     &::after {
                       content:url('../img/artefact_accordeon_checked.png');
                       transform: rotate(180deg);
@@ -4614,11 +4661,11 @@
 
             background-color:$lighter-gray;
             margin-top: 80px;
-            padding-top:80px;
             padding-bottom:30px;
 
             .mega_title_2{
                 padding-bottom:50px;
+                padding-top:80px;
             }
 
             .col-lg-4{
@@ -4631,7 +4678,7 @@
 
             .text_level_16pt_bold{
                 margin-top: 40px;
-                line-height: 0em;
+                line-height: 1.3em;
             }
         }
 
@@ -4653,7 +4700,7 @@
     /* FORMATIONS *********************/
 
     .formations_hero{
-        margin-top: 200px;
+        margin-top: 150px;
 
         h1{
             color: $keppel;
@@ -4768,7 +4815,7 @@
     /* PROJECTS *********************/
 
     .project_hero{
-        margin-top: 200px;
+        margin-top: 150px;
 
         .light_title_1{
             color: $tundora;
@@ -4966,36 +5013,43 @@
         .mega_title_1{
             font-family: 'euclid_flexbold';
             font-size: 1.2em;
+            color: $charade;
         }
 
         .mega_title_2{
             font-family: 'euclid_flexbold';
             font-size: 1.1em;
+            color: $trout;
         }
 
         .mega_title_3{
             font-family: 'euclid_flexbold';
             font-size: 0.9em;
+            color: $trout;
         }
 
          .mega_title_3_light{
             font-family: 'euclid_flexlight';
             font-size: 0.9em;
+            color: $trout;
         }
 
         .mega_title_4{
             font-family: 'euclid_flexbold';
             font-size: 0.8em;
+            color: $trout;
         }
 
         .light_title_1{
             font-family: 'euclid_flexlight';
             font-size: 1.9em;
+            color: $trout;
         }
 
          .light_title_2{
             font-family: 'euclid_flexlight';
             font-size: 0.9em;
+            color: $trout;
         }
 
     /* TEXTS TYPOS **********************/
@@ -5012,24 +5066,28 @@
             font-size: 0.9em;
             font-family: 'euclid_flexbold';
             line-height: 1.3em;
+            color: $trout;
         }
 
         .text_level_16pt{
             font-size: 0.9em;
             font-family: 'euclid_flexregular';
             line-height: 1em;
+            color: $trout;
         }
 
         .text_level_14pt_bold{
-            font-size: 0.8em;
+            font-size: 0.9em;
             font-family: 'euclid_flexbold';
             line-height: 1em;
+            color: $trout;
         }
 
         .text_level_14pt{
-            font-size: 0.7em;
-            font-family: 'euclid_flexlight';
+            font-size: 0.9em;
+            font-family: 'euclid_flexregular';
             line-height: 1em;
+            color: $trout;
         }
         
 
@@ -5101,14 +5159,16 @@
         font-family: 'euclid_flexregular';
         color: $heliotrope;
         font-size: 0.8em;
+        text-decoration: underline;
     }
 
 
          .btn_square_blue{
             display: block;
             font-family: 'euclid_flexbold';
-            color: $charade;
-            background-color:$turquoise_blue;
+            color: $heliotrope;
+            background-color:none;
+            border:4px solid $heliotrope;
             padding-top:20px;
             padding-bottom:10px;
             padding-left:20px!important;
@@ -5134,7 +5194,8 @@
         }
 
         .btn_square_blue:hover{
-            background-color:$keppel;
+            background-color:$heliotrope;
+            border:4px solid $melrose;
             color: white;
             text-decoration: none;
         }
@@ -5157,8 +5218,8 @@
         .btn_more_details{
             background-color: none;
             padding-top: 15px;
-            border: #8d78ff 4px solid;
-            color: #8d78ff;
+            border: $keppel 4px solid;
+            color: $keppel;
             font-family: 'euclid_flexbold';
             padding-left: 20px;
             padding-right: 20px;
@@ -5171,13 +5232,15 @@
         }
 
          .btn_more_details:hover{
-            background-color: $heliotrope;
+            background-color: $keppel;
+            border:4px solid $turquoise_blue;
             color: white;
             border-radius:0px;
          }
 
           .btn_more_details:visited{
-            background-color: $heliotrope;
+            background-color: $keppel;
+            border:4px solid $turquoise_blue;
             color: white;
             border-radius:0px;
          }
@@ -5506,7 +5569,7 @@
             }
 
             .link_mentions_legales{
-                color: $trout;
+                color: $periwinkle_gray;
                 font-size: 0.7em;
                 font-family: 'euclid_flexmedium';
                 -webkit-transition: all 0.6s;
@@ -5797,7 +5860,6 @@
 
             .text_level_16pt_bold{
                 margin-top: 20px;
-                line-height: 1em;
             }
 
             img{
@@ -5902,6 +5964,7 @@
 
             a{
                 color: $heliotrope;
+                text-decoration: underline;
             }
 
             a:hover{
@@ -5999,7 +6062,7 @@
     /* AGENCE *********************/
 
         .agence_hero{
-            margin-top: 150px;
+            margin-top: 100px;
 
             .light_title_1{
                 color: $turquoise_blue;
@@ -6146,7 +6209,7 @@
     /* SERVICES *********************/
 
         .services_hero{
-            margin-top: 150px;
+            margin-top: 100px;
 
             .light_title_1{
                 color: $heliotrope;
@@ -6238,7 +6301,7 @@
                 // :checked
                 input:checked {
                   + .tab-label {
-                    color:$charade;
+                    color:$trout;
                     &::after {
                       content:url('../img/artefact_accordeon_checked.png');
                       transform: rotate(180deg);
@@ -6288,7 +6351,7 @@
 /* FORMATIONS *********************/
 
     .formations_hero{
-        margin-top: 200px;
+        margin-top: 100px;
 
         h1{
             color: $keppel;
@@ -6403,7 +6466,7 @@
 /* PROJECTS *********************/
 
     .project_hero{
-        margin-top: 200px;
+        margin-top: 100px;
 
         .light_title_1{
             color: $tundora;
@@ -6604,31 +6667,37 @@
         .mega_title_1{
             font-family: 'euclid_flexbold';
             font-size: 1.2em;
+            color: $charade;
         }
 
         .mega_title_2{
             font-family: 'euclid_flexbold';
             font-size: 1.3em;
+            color: $trout;
         }
 
         .mega_title_3{
             font-family: 'euclid_flexbold';
             font-size: 1.2em;
+            color: $trout;
         }
 
           .mega_title_3_light{
             font-family: 'euclid_flexlight';
             font-size: 0.9em;
+            color: $trout;
         }
 
         .light_title_1{
             font-family: 'euclid_flexlight';
             font-size: 1.9em;
+            color: $trout;
         }
 
          .light_title_2{
             font-family: 'euclid_flexlight';
             font-size: 1.2em;
+            color: $trout;
         }
 
     /* TEXTS TYPOS **********************/
@@ -6642,27 +6711,31 @@
         }
 
         .text_level_16pt_bold{
-            font-size: 1em;
+            font-size: 0.9em;
             font-family: 'euclid_flexbold';
-            line-height: 1.3em;
+            line-height: 1.2em;
+            color: $trout;
         }
 
         .text_level_16pt{
-            font-size: 1em;
+            font-size: 0.9em;
             font-family: 'euclid_flexregular';
             line-height: 1.2em;
+            color: $trout;
         }
 
         .text_level_14pt_bold{
             font-size: 0.9em;
             font-family: 'euclid_flexbold';
             line-height: 1.2em;
+            color: $trout;
         }
 
         .text_level_14pt{
             font-size: 0.9em;
-            font-family: 'euclid_flexlight';
+            font-family: 'euclid_flexregular';
             line-height: 1.2em;
+            color: $trout;
         }
         
 
@@ -6733,14 +6806,16 @@
     .link_heliotrope{
         font-family: 'euclid_flexregular';
         color: $heliotrope;
+        text-decoration: underline;
     }
 
 
          .btn_square_blue{
             display: block;
             font-family: 'euclid_flexbold';
-            color: $charade;
-            background-color:$turquoise_blue;
+            color: $heliotrope;
+            border:4px solid $heliotrope;
+            background-color:none;
             padding-top:20px;
             padding-bottom:10px;
             padding-left:20px!important;
@@ -6766,7 +6841,8 @@
         }
 
         .btn_square_blue:hover{
-            background-color:$keppel;
+            background-color:$heliotrope;
+            border:4px solid $melrose;
             color: white;
             text-decoration: none;
         }
@@ -6789,8 +6865,8 @@
         .btn_more_details{
             background-color: none;
             padding-top: 15px;
-            border: #8d78ff 4px solid;
-            color: #8d78ff;
+            border: $keppel 4px solid;
+            color: $keppel;
             font-family: 'euclid_flexbold';
             padding-left: 20px;
             padding-right: 20px;
@@ -6803,13 +6879,15 @@
         }
 
          .btn_more_details:hover{
-            background-color: $heliotrope;
+            background-color: $keppel;
+            border:4px solid $turquoise_blue;
             color: white;
             border-radius:0px;
          }
 
           .btn_more_details:visited{
-            background-color: $heliotrope;
+            background-color: $keppel;
+            border:4px solid $turquoise_blue;
             color: white;
             border-radius:0px;
          }
@@ -7137,7 +7215,7 @@
             }
 
             .link_mentions_legales{
-                color: $trout;
+                color: $periwinkle_gray;
                 font-size: 0.7em;
                 font-family: 'euclid_flexmedium';
                 -webkit-transition: all 0.6s;
@@ -7430,7 +7508,6 @@
 
             .text_level_16pt_bold{
                 margin-top: 20px;
-                line-height: 1em;
             }
 
             img{
@@ -7475,7 +7552,7 @@
 
 
         .home_realisations{
-            margin-top: 80px;
+            margin-top: 0px;
 
 
             img{
@@ -7509,6 +7586,10 @@
         .contact_content{
             margin-top: 100px;
 
+            .text_level_16pt{
+                font-size: 0.9em;
+            }
+
             .mega_title_2{
                 margin-top: 10px;
             }
@@ -7519,7 +7600,7 @@
 
             li{
                 color: $charade;
-                font-size: 0.7em;
+                font-size: 0.9em;
                 font-family: 'euclid_flexregular';
                 line-height: 1.3;
             }
@@ -7532,6 +7613,7 @@
 
             a{
                 color: $heliotrope;
+                text-decoration: underline;
             }
 
             a:hover{
@@ -7579,7 +7661,7 @@
                     box-shadow:inset 0px 0px 0px 2px $trout;
                     color: $trout;
                     font-family: 'euclid_flexmedium';
-                    font-size: 0.8em;
+                    font-size: 0.9em;
                 }
 
                 textarea{
@@ -7591,7 +7673,7 @@
                     box-shadow:inset 0px 0px 0px 2px $trout;
                     border:solid $trout 1px;
                     color: $trout;
-                    font-size: 0.8em;
+                    font-size: 0.9em;
                 }
 
                 textarea:focus, input[type="text"]:focus, input[type="email"]:focus{
@@ -7631,7 +7713,7 @@
     /* AGENCE *********************/
 
         .agence_hero{
-            margin-top: 130px;
+            margin-top: 100px;
 
             .light_title_1{
                 color: $turquoise_blue;
@@ -7800,7 +7882,7 @@
             /* SERVICES *********************/
 
         .services_hero{
-            margin-top: 150px;
+            margin-top: 100px;
 
             .light_title_1{
                 color: $heliotrope;
@@ -7892,7 +7974,7 @@
                 // :checked
                 input:checked {
                   + .tab-label {
-                    color:$charade;
+                    color:$trout;
                     &::after {
                       content:url('../img/artefact_accordeon_checked.png');
                       transform: rotate(180deg);
@@ -7945,7 +8027,7 @@
   /* FORMATIONS *********************/
 
     .formations_hero{
-        margin-top: 200px;
+        margin-top: 100px;
 
         h1{
             color: $keppel;
@@ -8060,7 +8142,7 @@
     /* PROJECTS *********************/
 
     .project_hero{
-        margin-top: 200px;
+        margin-top: 100px;
 
         .light_title_1{
             color: $tundora;
